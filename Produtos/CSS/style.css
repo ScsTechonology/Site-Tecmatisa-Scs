@@ -170,8 +170,9 @@ body{
 
 .box3{
     display: flex;
-    width: 700;
+    width: 700px;
     margin-left: 30px;
+    margin-top: 50px;
     height: 300px;
     border-radius: 50% 0 0 50%;
     border-left: 15px solid red;
@@ -183,3 +184,52 @@ body{
 }
 
 /* Prensa Contínua Automática */
+
+.box4{
+    display: flex;
+    width: 700px;
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 300px;
+    border-radius: 50% 0 0 50%;
+    border-left: 15px solid red;
+    align-items: center;
+}
+
+.prensa-continua-automatica{
+    margin-left: 100px;
+}
+
+/* trituradores */
+
+.box5{
+    display: flex;
+    width: 700px;
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 300px;
+    border-radius: 50% 0 0 50%;
+    border-left: 15px solid red;
+    align-items: center;
+}
+
+.trituradores{
+    margin-left: 100px;
+}
+
+/* Briquetadeira */
+
+.box6{
+    display: flex;
+    width: 700px;
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 300px;
+    border-radius: 50% 0 0 50%;
+    border-left: 15px solid red;
+    align-items: center;
+}
+
+.briquetadeira{
+    margin-left: 100px;
+}
