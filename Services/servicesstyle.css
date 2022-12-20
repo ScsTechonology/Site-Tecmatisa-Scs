@@ -82,16 +82,16 @@ main section h1 {
   align-items: center;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  text-align: center; 
+  text-align: center;
   margin-left: 50px;
+  margin-top: 600px;
 }
 .box-card h1 {
   font-size: 3em;
   margin: 30px auto;
   text-align: center;
-  font-weight: 20px;  
+  font-weight: 20px;
   color: black;
-  
 }
 .content-box {
   display: flex;
@@ -123,6 +123,20 @@ main section h1 {
   color: #686868;
   text-align: center;
 }
+.card button {
+  color: black;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  box-shadow: 1px 3px 7px black;  
+  display: block; 
+  background-color: #3c3c3c;
+  color: white;  
+}
+.card button:hover {
+  background-color: #3f3f3f;
+  color: rgb(255, 255, 255);
+}
 .card:hover p {
   color: rgb(255, 255, 255);
 }
@@ -130,7 +144,7 @@ main section h1 {
   color: white;
 }
 .card:hover {
-  background-color: #eb3836;
+  background-color: #7a7a7a;
   transform: scale(1.03);
 }
 
@@ -138,7 +152,7 @@ main section h1 {
 
 #footer {
   padding: 3em 2em;
-  margin-top: 600px;
+  margin-top: 1200px;
 }
 
 #footer-top {
