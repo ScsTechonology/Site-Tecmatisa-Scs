@@ -51,23 +51,161 @@
 
 
 /* BANNER */
-.banner-produtos{
-  background-color: blue;
+.banner-produtos img{
+  width: 100%;
+
+}
+
+/* PRODUTOS */
+
+.title-produtos h1{
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.container-produtos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.divisoria{
+  width: 400px;
+  border-top: solid #ddd 1px;
+}
+
+.descricao{
+  color: rgb(106, 105, 105);
+  font-size: small;
+}
+
+.btn-produtos{
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: rgb(34, 33, 33);
+
+}
+
+.btn-produtos:hover{
+  color: white;
+  background-color: red;
+  transition: 0,9s;
+}
+
+.conteudo-prensa h2{
+  font-size: 1.5em;
+}
+
+/* ENFARDADEIRA VERTICAL */
+.box1{
+  display: flex;
+  width: 700px;
+  margin-left: 50px;
+  height: 300px;
+  border-radius: 50% 0 0 50%;
+  border-left: 15px solid red;
+  align-items: center;
 }
 
 
+.prensa-enfardadeira img{
+  width: 170px;
+  margin-left: 100px;
+}
 
+/* PRENSA JACARÉ */
+.box2{
+  display: flex;
+  width: 700px;
+  margin-left: 50px;
+  height: 300px;
+  border-radius: 50% 0 0 50%;
+  border-left: 15px solid red;
+  align-items: center;
+}
 
+.prensa-jacare img{
+  width: 170px;
+  margin-left: 100px;
+}
 
+/* PRENSA HORIZONTAL */
+.box3{
+  display: flex;
+  width: 700px;
+  margin-left: 50px;
+  margin-top: 40px;
+  height: 300px;
+  border-radius: 50% 0 0 50%;
+  border-left: 15px solid red;
+  align-items: center;
+}
 
+.prensa-horizontal img{
+  width: 170px;
+  margin-left: 100px;
+}
 
+/* PRENSA CONTÍNUA AUTOMÁTICA */
 
+.box4{
+  display: flex;
+  width: 700px;
+  margin-left: 50px;
+  margin-top: 40px;
+  height: 300px;
+  border-radius: 50% 0 0 50%;
+  border-left: 15px solid red;
+  align-items: center;
+}
 
+.prensa-continua-automatica img{
+  width: 170px;
+  margin-left: 100px;
+}
 
+/* TRITURADORES */
+.box5{
+  display: flex;
+  width: 700px;
+  margin-left: 50px;
+  margin-top: 40px;
+  height: 300px;
+  border-radius: 50% 0 0 50%;
+  border-left: 15px solid red;
+  align-items: center;
+}
 
+.trituradores img{
+  width: 170px;
+  margin-left: 100px;
+}
 
+/* BRIQUETADEIRA */
 
+.box6{
+  display: flex;
+  width: 700px;
+  margin-left: 50px;
+  margin-top: 40px;
+  height: 300px;
+  border-radius: 50% 0 0 50%;
+  border-left: 15px solid red;
+  align-items: center;
+}
 
+.briquetadeira img{
+  width: 170px;
+  margin-left: 100px;
+}
 
 
 
