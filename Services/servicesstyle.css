@@ -1,6 +1,11 @@
 * {
   font-family: "Lato", sans-serif;
 }
+body {
+  background: url(services-assets/walpaper.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
 .bg-primary-color {
   background-color: #fff;
@@ -90,11 +95,11 @@ main .box-card .circle {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
   text-align: center;
   margin-left: 50px;
   margin-top: 600px;
 }
+
 .box-card h1 {
   font-size: 3em;
   margin: 30px auto;
