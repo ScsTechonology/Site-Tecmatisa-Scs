@@ -25,6 +25,9 @@ body{
 .secondary-color {
   color: #7a7a7a;
 }
+
+
+
 /* NAVBAR */
 #navbar a {
     color:black;
@@ -58,6 +61,7 @@ body{
   #navbar-items .nav-item {
     margin: 0 1em;
   }
+
 
 /*banner*/
 
@@ -228,6 +232,10 @@ body{
 .briquetadeira{
     margin-left: 100px;
 }
+
+
+
+
 /* FOOTER TOP */
 #footer {
     padding: 3em 2em;
