@@ -171,6 +171,18 @@ main .card a {
 main .card a:hover {
   transform: scale(1.1);
 }
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+  .box-card {
+    padding: 25px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card {
+    min-width: 100px;
+    margin: 10px auto;
+  }
+}
 
 /* FOOTER TOP */
 
