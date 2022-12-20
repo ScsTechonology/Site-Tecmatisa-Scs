@@ -158,25 +158,20 @@ main .box-card .circle {
   background-color: #7a7a7a;
   transform: scale(1.03);
 }
-main .box-card .btn {
-  display: flex;
-  justify-content: space-around;
-  background-color: #ffffff;
-}
+
 main .card img {
   height: 70px;
   cursor: pointer;
-} 
- main .card a{
-  text-decoration: none; 
+}
+main .card a {
+  text-decoration: none;
   color: #050505;
   transition: 1.4s;
- } 
- main .card a:hover{ 
+}
+main .card a:hover {
   transform: scale(1.1);
-  
- }
- 
+}
+
 /* FOOTER TOP */
 
 #footer {
