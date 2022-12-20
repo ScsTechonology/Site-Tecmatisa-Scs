@@ -70,37 +70,18 @@ main {
   display: flex;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  height: 800px;
-  margin-top: 100px;
+  height: 400px;
 }
 main section {
   display: flex;
   align-items: center;
-  background-color: rgb(244, 244, 244);
-  height: 700px;
-  width: 1450px;
-  margin: auto;
-  border-radius: 30px;
-  box-shadow: 3px 3px 15px black;
 }
-
-main section p {
+main section h1 {
   color: black;
-  text-align: center;
-  padding: 20px;
+  font-size: 44px;
+  font-weight: bold;
+  margin: 50px;
+  color: #ec4543;
 }
-main section h3 {
-  color: #ea3432;
-  text-transform: uppercase;
-  padding: 20px;
-}
-/*FOOTER---->RODAPE*/
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  background-color: rgba(0, 0, 0, 0.548);
-  height: 70px;
-  color: white;
-}
+/*FOOTER---->RODAPE*/
