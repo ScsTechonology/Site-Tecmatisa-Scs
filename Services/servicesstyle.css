@@ -60,7 +60,7 @@
 main {
   display: flex;
   align-items: center;
-  background-color: rgb(255, 255, 255); 
+  background-color: rgb(255, 255, 255);
   margin-top: 600px;
   height: 100px;
 }
@@ -70,6 +70,11 @@ main section h1 {
   font-weight: bold;
   margin: 50px;
   color: #ec4543;
+}
+.content-box {
+  margin-left: 200px;
+  width: 600px;
+  
 }
 .box-card {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -83,6 +88,7 @@ main section h1 {
   font-size: 3em;
   margin: 25px 0;
   text-align: center;
+  font-weight: 20px;
 }
 .content-box {
   display: flex;
@@ -95,7 +101,7 @@ main section h1 {
   min-height: 220px;
   width: 320px;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,17 +113,18 @@ main section h1 {
 .card h2 {
   margin-bottom: 12px;
   font-weight: 400px;
-  text-align: center;
+  text-align: center; 
+  
 }
 .card p {
   color: #686868;
   text-align: center;
-} 
-.card:hover p{
-  color: rgb(0, 0, 0);
+}
+.card:hover p {
+  color: rgb(255, 255, 255);
 }
 .card:hover {
-  background-color: #ec4543;
+  background-color: #f28280;
 }
 .card:nth-child(1):hover {
   background: linear-gradient(45deg, rgba(255, 28, 8, 0.7) 0%),
@@ -127,6 +134,7 @@ main section h1 {
 
 #footer {
   padding: 3em 2em;
+  margin-top: 600px;
 }
 
 #footer-top {
