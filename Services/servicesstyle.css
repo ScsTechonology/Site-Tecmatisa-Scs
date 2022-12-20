@@ -165,7 +165,10 @@ main .box-card .circle {
 .card:hover {
   background-color: #7a7a7a;
   transform: scale(1.03);
-}
+} 
+  main .card h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
 main .card img {
   height: 70px;
