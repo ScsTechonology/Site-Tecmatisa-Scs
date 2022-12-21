@@ -78,7 +78,8 @@ main section h1 {
   font-weight: bold;
   margin: 50px;
   color: #ec4543;
-}
+} 
+/*CARDS*/
 main .box-card .circle {
   position: absolute;
   top: 0;
