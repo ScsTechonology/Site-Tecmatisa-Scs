@@ -48,6 +48,10 @@
 #navbar-items .nav-item {
   margin: 0 1em;
 }
+.nav-item1{
+  border-bottom: solid ;
+}
+
 
 
 /* BANNER */
