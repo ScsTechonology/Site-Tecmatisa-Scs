@@ -10,6 +10,25 @@ body {
   background-size: cover;
   background-repeat: center center;
 }
+.bg-primary-color {
+  background-color: #fff;
+}
+
+.bg-secondary-color {
+  background-color: #ece8e2;
+}
+
+.bg-dark-color {
+  background-color: #050505;
+}
+
+.primary-color {
+  color: #050505;
+}
+
+.secondary-color {
+  color: #7a7a7a;
+}
 /* NAVBAR */
 #navbar a {
   color: black;
