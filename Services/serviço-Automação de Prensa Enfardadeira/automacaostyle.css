@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 body {
   background: url(assets/walpaper.jpg);
@@ -99,8 +98,7 @@ main section {
   width: 1400px;
 }
 
-main section .content { 
-    
+main section .content {
   background-color: rgb(65, 65, 65);
   border-left: 8px solid red;
   border-radius: 30px;
@@ -123,30 +121,30 @@ main section .content .textcontent p {
   margin: 30px;
   padding: 20px;
   font-size: 20px;
-} 
-main section .content .btn{ 
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-} 
-
-main section .content .btn button{
-    background-color: red; 
-    border-radius: 20px;
-    padding: 10px; 
-    width:200px; 
-    transition: 1.05s;
-} 
-main section .content .btn button:hover{
-    transform: scale(1.05); 
-    background-color: #7a7a7a;
-    color: white;
-
+}
+main section .content .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-    
-    
-    
+main section .content .btn button {
+  background-color: red;
+  border-radius: 20px;
+  padding: 10px;
+  width: 200px;
+  transition: 1.05s;
+}
+main section .content .btn button:hover {
+  transform: scale(1.05);
+  background-color: #7a7a7a;
+  color: white;
+} 
+main a {
+    text-decoration: none; 
+    color: white;
+}
+
 /* FOOTER TOP */
 #footer {
   padding: 3em 2em;
