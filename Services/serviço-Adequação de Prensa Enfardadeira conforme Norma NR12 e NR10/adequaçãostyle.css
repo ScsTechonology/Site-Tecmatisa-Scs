@@ -3,21 +3,20 @@
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
-
 }
 
 * h1 {
   font-size: 40px;
-
 }
 
 * h2 {
   font-size: 20px;
-
 }
 
+/*BODY*/
+
 body {
-  background: url(../services-assets/walpaper.jpg);
+  background-color: #050505;
   background-position: center;
   background-size: cover;
   background-repeat: center center;
@@ -181,12 +180,6 @@ main .box-card .circle {
   transition: 1.2s;
 }
 
-.card button:hover {
-  background-color: #3f3f3f;
-  color: rgb(255, 255, 255);
-  transform: scale(1.08);
-}
-
 .card:hover p {
   color: rgb(255, 255, 255);
 }
@@ -196,7 +189,7 @@ main .box-card .circle {
 }
 
 .card:hover {
-  background-color: #7a7a7a;
+  background-color: #ff0000;
   transform: scale(1.03);
 }
 
@@ -222,15 +215,21 @@ main .card a:hover {
 /*CONTEUDO*/
 main section .vantagens {
   margin-top: 100px;
+} 
+main section P {
+  color: #ece8e2;
+
 }
 
 main section h3 {
   margin-top: 20px;
-  font-weight: bold;
+  font-weight: bold; 
+  color: #ece8e2;
 }
 
 main section .content h1 {
-  align-items: center;
+  align-items: center; 
+  color: #7a7a7a;
 }
 
 main section .fotos {
