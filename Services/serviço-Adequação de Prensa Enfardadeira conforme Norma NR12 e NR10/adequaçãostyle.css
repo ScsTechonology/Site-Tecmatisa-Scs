@@ -163,6 +163,7 @@ main section .content p {
   width: 300px;
   padding: 10px;
   border-radius: 10px 40px;
+  border: solid black;
 }
 
 .card p {
@@ -214,11 +215,12 @@ main section .vantagens p {
   color: #6a6a6a;
 }
 main section .vantagens h2 {
-  background-color: #3a3a3a;
+  background-color: #EA3432;
   color: white;
   border-radius: 20px 60px;
   margin: 20px;
-  padding: 10px;
+  padding: 10px; 
+  border: solid black;
 }
 
 main section P {
@@ -244,16 +246,18 @@ main section .fotos h3 {
   margin: 20px;
   padding: 10px;
   background-color: #ece8e2;
-  border-radius: 20px 40px;
+  border-radius: 20px 40px; 
+  border: solid black;
 }
 /* 2 PRIMEIRAS IMAGENS*/
 main section .fotos {
   margin-top: 60px;
-  width: 1400px;
+  width: 900px;
   background-color: #5c5c5c;
   background-position: center center;
   border-radius: 60px;
-  box-shadow: 1px 2px 15px black;
+  box-shadow: 1px 2px 15px black; 
+  border: solid black;
 }
 
 main section .fotos img {
