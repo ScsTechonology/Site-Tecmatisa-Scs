@@ -149,13 +149,13 @@ main .box-card .circle {
   box-shadow: 1px 3px 7px black;
   display: block;
   background-color: #3c3c3c;
-  color: white;
-  transition: 1.2s;
+  color: rgb(255, 255, 255);
+ 
 }
 .card button:hover {
   background-color: #3f3f3f;
   color: rgb(255, 255, 255);
-  transform: scale(1.08);
+  
 }
 .card:hover p {
   color: rgb(255, 255, 255);
