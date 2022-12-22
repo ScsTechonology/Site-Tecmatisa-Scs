@@ -31,7 +31,7 @@
       crossorigin="anonymous"
     />
     <!-- CSS do Projeto-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="automacaostyle.css" />
     <!-- JavaScript Boostrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -45,10 +45,7 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
       <div class="container py-3">
         <a href="#" class="navbar-brand logo-link">
-          <img
-            src="services-assets/novo-logo-tecmatisa.png"
-            alt="novo-logo-tecmatisa"
-          />
+          <img src="assets/novo-logo-tecmatisa.png" alt="novo-logo-tecmatisa" />
         </a>
         <button
           class="navbar-toggler"
@@ -92,6 +89,115 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> 
+    
+    <!--MAIN~CONTEUDO-->
+    <main>
+      <div class="circle"></div>
+      <section>
+        <!--SECTION-->
+        <div class="content">
+          <div class="textcontent">
+            <h1>Automação de Prensa Enfardadeira</h1>
+            <p>
+              A Tecmatisa desenvolve automação em prensa enfardadeira para lata,
+              papel , plastico, PET, <br />
+              dentre outros. Com atendimento em todo Brasil , nosso corpo de
+              engenheiros possuem expertise em soluções para a reciclagem.
+              Automação e a porta para a Industria 4.0 , e a maneira mais
+              eficiente de aumentar a produção e reduzir custos. Automação de
+              prensas e uma tendência para as empresas que precisam se
+              desenvolver.
+            </p>
+          </div> 
+          <div class="btn"><button type="button">Voltar</button></div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark-color" id="footer">
+      <div class="container">
+        <div class="row">
+          <!-- FOOTER TOP -->
+          <div class="col-12" id="footer-top">
+            <div class="row justify-content-between">
+              <div class="col-4">
+                <h2>Tecmatisa</h2>
+              </div>
+              <div class="col-4" id="social-icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter"></i>
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER DETAILS -->
+          <div class="col-12" id="footer-details">
+            <div class="row">
+              <div class="col-12 col-md-4" id="news-container">
+                <h4>Fique por dentro das novidades</h4>
+                <p class="secondary-color">
+                  Inscreva-se para saber em primeira mão
+                </p>
+                <form>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Digite o seu e-mail"
+                    />
+                  </div>
+                  <button class="btn btn-dark">Inscrever</button>
+                </form>
+              </div>
+              <div class="col-12 col-md-4" id="contact-container">
+                <h4>Formas de contato</h4>
+                <p class="secondary-color">(19)98610-2673</p>
+                <p class="secondary-color">nilton@tecmatisa.com.br</p>
+              </div>
+              <div class="col-12 col-md-4" id="links-container">
+                <div class="row">
+                  <h4>Você pode estar buscando por:</h4>
+                  <div class="col-6">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="secondary-color">Projetos</a></li>
+                      <li><a href="#" class="secondary-color">Imóveis</a></li>
+                      <li><a href="#" class="secondary-color">Vendas</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="secondary-color">Contratar</a></li>
+                      <li>
+                        <a href="#" class="secondary-color">Trabalhe conosco</a>
+                      </li>
+                      <li><a href="#" class="secondary-color">Contato</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER BOTTOM -->
+          <div class="col-12" id="footer-bottom">
+            <div class="row justify-content-between">
+              <div class="col-12 col-md-3">
+                <p class="secondary-color">Tecmatisa &copy; 2022</p>
+              </div>
+              <div class="col-12 col-md-3">
+                <p class="secondary-color">
+                  Realizamos o seu projeto com excelência!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
