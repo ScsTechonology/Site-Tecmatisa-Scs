@@ -91,6 +91,11 @@ section {
 }
 .image img:hover {
   transform: scale(1.05);
+} 
+#carouselExampleFade img{
+  height: 400px; 
+  height: 400px;
+
 }
 /* FOOTER TOP */
 #footer {
