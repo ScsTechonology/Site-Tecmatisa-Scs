@@ -37,20 +37,22 @@
 /*MAIN*/
 main {
   display: flex;
-  align-items: center;
+  background: url(assets/walpaper.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
   justify-content: center;
   background-color: red;
-  height: 1800px;
+  height: 1600px;
 }
 
 section {
-  align-items: center;
-  justify-content: center;
-  align-items: center;
+  margin-top: 150px;
   width: 1500px;
   align-items: center;
   justify-content: center;
-  background-color: yellow;
+
   height: 800px;
 }
 .content {
@@ -58,8 +60,10 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 20px;
-  background-color: blue;
+  margin: 20px; 
+  background-color: rgb(214, 214, 214); 
+  border-radius: 10px 80px; 
+  box-shadow: 1px 3px px black;
 }
 .content h1 {
   font-size: 60px;
