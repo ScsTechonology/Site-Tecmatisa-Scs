@@ -95,26 +95,30 @@ main section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1400px;
+  width: 1600px;
+}
+#carouselExampleControls {
+  margin-top: 900px;
 }
 
 main section .content {
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(15, 15, 15);
   border-left: 8px solid red;
   border-radius: 30px;
-  width: 900px;
-  box-shadow: 5px 9px 15px black;
+  width: 1000px;
+  box-shadow: 5px 9px 15px black; 
+  margin-bottom: 600px;
 }
 
 main section .content .textcontent h1 {
   width: 1000px;
   color: white;
-
   border-radius: 20px 40px;
   padding: 20px;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: bold; 
 }
+
 main section .content .textcontent p {
   text-align: center;
   color: #969696;
@@ -139,15 +143,16 @@ main section .content .btn button:hover {
   transform: scale(1.05);
   background-color: #7a7a7a;
   color: white;
-} 
+}
 main a {
-    text-decoration: none; 
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* FOOTER TOP */
 #footer {
-  padding: 3em 2em;
+  padding: 3em 2em; 
+  margin-top: 250px;
 }
 
 #footer-top {

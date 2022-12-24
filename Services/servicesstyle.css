@@ -78,7 +78,7 @@ main section h1 {
   font-weight: bold;
   margin: 50px;
   color: #ec4543;
-} 
+}
 /*CARDS*/
 main .box-card .circle {
   position: absolute;
@@ -100,8 +100,7 @@ main .box-card .circle {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-left: 50px;
-  margin-top: 600px;
+  margin-top: 200px;
 }
 
 .box-card h1 {
@@ -150,12 +149,10 @@ main .box-card .circle {
   display: block;
   background-color: #3c3c3c;
   color: rgb(255, 255, 255);
- 
 }
 .card button:hover {
   background-color: #3f3f3f;
   color: rgb(255, 255, 255);
-  
 }
 .card:hover p {
   color: rgb(255, 255, 255);

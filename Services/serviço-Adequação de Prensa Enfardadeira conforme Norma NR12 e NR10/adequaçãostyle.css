@@ -261,7 +261,8 @@ main section .fotos {
 }
 
 main section .fotos img {
-  height: 400px;
+  height: 200px;
+  width: 30px;
   border-radius: 20px;
   margin: 20px;
   transition: 1.4s;
@@ -301,6 +302,12 @@ main section .images2 img {
 }
 main section .prensescontent .images2 img:hover {
   transform: scale(1.05);
+} 
+.carouselExampleControls img{
+  height: 100px; 
+  width: 100px;
+  
+
 }
 
 /* FOOTER TOP */
