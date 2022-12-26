@@ -66,28 +66,46 @@
 
 
 /* APRESENTÇÃO PRENSA ENFARDADEIRA */
-main {
+main.container-pai {
+  display: flex;
+  min-width: 100vh;
+  flex-direction: column;
   background-color: rgba(65, 65, 65, 0.1);
-  padding: 30px;
+  padding: 10em;
+  align-items: center;
 }
+
+
 
 .container-enfardadeira {
   display: flex;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  height: 1130px;
-  margin: 150px 80px 50px 80px;
+  width: 80vw;
+  height: auto;
   border-radius: 5px;
   background-color: white;
   flex-wrap: wrap;
-  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
+@media only screen and (max-width:600px) {
+  .container-enfardadeira{
+    width: 80vh;
+  }
+
+  .container-pai{
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
 
 .container-enfardadeira img {
   flex: 40%;
   padding-top: 40px;
   width: 500px;
   height: 500px;
-
 }
 
 /* FICHA TECNICA */
@@ -130,12 +148,12 @@ section .conteudo {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+  transform: 0.5;
 }
 
 .conteudo a:hover {
-  background-color: red;
+  background-color: rgb(255, 0, 0);
   color: white;
-  transition: 0.7s;
 }
 
 .list-descrition ul, li {
@@ -147,19 +165,16 @@ section .conteudo {
 /* DESCRIÇÃO DO PRODUTO */
 
 .container-descricao {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  margin-left: 20px;
-  padding-left: 30px;
-  max-width: 700px;
-  padding-top: 20px;
-  border-top: 1px solid #ddd;
+  flex: 40%;
+  padding: 40px;
+  width: 500px;
+  height: auto;
+
 }
 
 
 .container-descricao p {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .container-descricao h2 {
@@ -168,14 +183,13 @@ section .conteudo {
 
 
 .caracteristicas {
-  padding-top: 20px;
+  padding-top: 20;
 }
 
 
 /* INFORMAÇÃO DO VDENDEDOR */
 .info-vendedor {
   display: flex;
-  flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   margin: 15px;
   padding: 20px;
@@ -190,10 +204,22 @@ section .conteudo {
 
 
 /* SLIDES */
+
+.slides{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.slides h2{
+  padding-top: 20px;
+  font-size: 22px;
+}
+
 .slides-produtos{
   display: flex;
-  margin: 15px 80px 50px 80px;
-  gap: 20px;
+  gap: 10px;
+  padding-top: 5px;
 }
 
 #produtos-relacionados{
@@ -401,10 +427,80 @@ section .conteudo {
 }
 
 
+/* Prensa enfardadeira PNV-25 T */
+.prensa-PNV-25-T{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: white;
+  align-items: center;
+}
+
+.prensa-PNV-25-T:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
 
 
+.prensa-PNV-25-T img{
+  height: 240px;
+}
+
+.prensa-PNV-25-T:hover{
+  cursor: pointer;
+}
+
+.prensa-PNV-25-T span{
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.prensa-PNV-25-T p{
+  text-align: center;
+  width: 200px;
+  font-size: 11px;
+}
 
 
+/* Prensa enfardadeira PNV- 40  */
+.prensa-PNV-40-T{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: white;
+  align-items: center;
+}
+
+.prensa-PNV-40-T:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.prensa-PNV-40-T img{
+  height: 240px;
+}
+
+.prensa-PNV-40-T:hover{
+  cursor: pointer;
+}
+
+.prensa-PNV-40-T span{
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.prensa-PNV-40-T p{
+  text-align: center;
+  width: 200px;
+  font-size: 11px;
+}
 
 
 

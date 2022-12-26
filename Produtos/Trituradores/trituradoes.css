@@ -1,0 +1,307 @@
+.bg-primary-color {
+    background-color: #fff;
+  }
+  
+  .bg-secondary-color {
+    background-color: #ece8e2;
+  }
+  
+  .bg-dark-color {
+    background-color: #050505;
+  }
+  .primary-color {
+    color: #050505;
+  }
+  .secondary-color {
+    color: #7a7a7a;
+  }
+  /* NAVBAR */
+  #navbar a {
+    color:black;
+  }
+  #navbar a:hover {
+    color: red;
+  }
+  #navbar{
+    font-weight: bolder;
+  }
+  .navbar-brand {
+    display: flex;
+  }
+  
+  .navbar-brand img {
+    width: 200px;
+  }
+  
+  .navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+  
+  #navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #navbar-items .nav-item {
+    margin: 0 1em;
+  }
+  .nav-item1{
+    border-bottom: solid ;
+  }
+
+
+
+/* APRESENTÇÃO PRENSA ENFARDADEIRA */
+main.container-pai {
+  display: flex;
+  min-width: 100vh;
+  flex-direction: column;
+  background-color: rgba(65, 65, 65, 0.1);
+  padding: 10em;
+  align-items: center;
+}
+
+
+
+.container-trituradores {
+  display: flex;
+  width: 80vw;
+  height: auto;
+  border-radius: 5px;
+  background-color: white;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media only screen and (max-width:600px) {
+  .container-trituradores{
+    width: 80vh;
+  }
+
+  .container-pai{
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+
+.container-trituradores img {
+  flex: 40%;
+  padding-top: 40px;
+  width: 500px;
+  height: 500px;
+}
+
+/* FICHA TECNICA */
+
+section .conteudo {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 15px;
+  padding: 20px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.conteudo h1 {
+  font-size: 22px;
+}
+
+.conteudo p {
+  font-size: small;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.conteudo span {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.conteudo a {
+  text-decoration: none;
+  background-color: #302f2f;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transform: 0.5;
+}
+
+.conteudo a:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+.list-descrition ul, li {
+  color: #7a7a7a;
+  font-size: 15px;
+}
+
+
+/* DESCRIÇÃO DO PRODUTO */
+
+.container-descricao {
+  flex: 40%;
+  padding: 40px;
+  width: 500px;
+  height: auto;
+
+}
+
+
+.container-descricao p {
+  padding-top: 5px;
+}
+
+.container-descricao h2 {
+  font-size: 24px;
+}
+
+
+.caracteristicas {
+  padding-top: 20;
+}
+
+
+/* INFORMAÇÃO DO VDENDEDOR */
+.info-vendedor {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 15px;
+  padding: 20px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.info-vendedor h2 {
+  font-size: 18px;
+}
+
+
+
+  
+/* FOOTER TOP */
+#footer {
+    padding: 3em 2em;
+  }
+  
+  #footer-top {
+    margin-bottom: 2em;
+  }
+  
+  #footer-top,
+  #footer-top i {
+    color: #fff;
+  }
+  
+  #social-icons {
+    text-align: right;
+  }
+  
+  #social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  #social-icons i:hover {
+    color: #7a7a7a;
+  }
+  
+  /* FOOTER DETAILS */
+  #footer-details {
+    margin-bottom: 3em;
+  }
+  
+  #news-container,
+  #contact-container,
+  #links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+  }
+  
+  #footer-details h4 {
+    color: #fff;
+    margin-bottom: 1.5em;
+  }
+  
+  #news-container input {
+    border-radius: 0;
+    border: none;
+  }
+  
+  #links-container li {
+    margin-bottom: 0.5em;
+  }
+  
+  #links-container a {
+    text-decoration: none;
+  }
+  
+  #links-container a:hover {
+    color: #fff;
+  }
+  /* INFO */
+  #info-content {
+    margin-bottom: 4em;
+    padding: 4em 1em;
+  }
+  
+  #info-numbers {
+    margin: 1.5em 0;
+  }
+  
+  #info-banner {
+    align-items: center;
+    display: flex;
+    margin-bottom: 2.5em;
+  }
+  
+  #info-numbers h3 {
+    font-size: 3em;
+  }
+  
+  @media (min-width: 768px) {
+    #info-content {
+      padding: 3.5em;
+    }
+  }
+  /* FOOTER BOTTOM */
+  #footer-bottom {
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+  }
+  
+  #footer-bottom i {
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    #news-container {
+      padding-right: 2em;
+    }
+  
+    #contact-container {
+      padding: 0 2em;
+      border-left: 1px solid #7a7a7a;
+      border-right: 1px solid #7a7a7a;
+    }
+  
+    #links-container {
+      padding-left: 2em;
+    }
+  } 
