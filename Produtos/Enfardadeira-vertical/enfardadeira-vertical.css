@@ -88,16 +88,16 @@ main.container-pai {
 }
 
 @media only screen and (max-width:600px) {
-  .container-enfardadeira{
+  .container-enfardadeira {
     width: 80vh;
   }
 
-  .container-pai{
+  .container-pai {
     width: 100vh;
     justify-content: center;
     align-items: center;
   }
-  
+
 }
 
 
@@ -203,38 +203,59 @@ section .conteudo {
 
 
 
+/* PRODUTOS RELACIONADOS */
+
+#produtos-relacionados {
+  width: 80vw;
+  font-size: 24px;
+  margin-top: 30px;
+
+}
+
 /* SLIDES */
 
-.slides{
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
-}
-
-.slides h2{
-  padding-top: 20px;
-  font-size: 22px;
-}
-
-.slides-produtos{
+.slider-carousel{
   display: flex;
   gap: 10px;
-  padding-top: 5px;
+  margin-top: 15px;
 }
 
-#produtos-relacionados{
-  display: flex;
-  margin-left: 80px;
-  flex-direction: column;
-  font-size: 24px;
-  padding-bottom: 15px;
+.card {
+  width: 260px;
+  align-items: center;
+  font-size: 16px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.card h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
 
 
 
 /* PRENSA-PNR-15-T */
 
-.prensa-PNR12-15-T{
+.prensa-PNR12-15-T {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -248,23 +269,23 @@ section .conteudo {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.prensa-PNR12-15-T img{
+.prensa-PNR12-15-T img {
   width: 170px;
 }
 
-.prensa-PNR12-15-T:hover{
+.prensa-PNR12-15-T:hover {
   cursor: pointer;
 }
 
 
-.prensa-PNR12-15-T span{
+.prensa-PNR12-15-T span {
   font-size: 14px;
   text-align: center;
   padding: 10px;
   font-weight: bold;
 }
 
-.prensa-PNR12-15-T p{
+.prensa-PNR12-15-T p {
   text-align: center;
   width: 200px;
   font-size: 11px;
@@ -274,7 +295,7 @@ section .conteudo {
 
 /* PRENSA-PNR12-25-T */
 
-.prensa-PNR12-25-T{
+.prensa-PNR12-25-T {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -288,22 +309,22 @@ section .conteudo {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.prensa-PNR12-25-T img{
+.prensa-PNR12-25-T img {
   height: 240px;
 }
 
-.prensa-PNR12-25-T:hover{
+.prensa-PNR12-25-T:hover {
   cursor: pointer;
 }
 
-.prensa-PNR12-25-T span{
+.prensa-PNR12-25-T span {
   font-size: 14px;
   text-align: center;
   padding: 10px;
   font-weight: bold;
 }
 
-.prensa-PNR12-25-T p{
+.prensa-PNR12-25-T p {
   text-align: center;
   width: 200px;
   font-size: 11px;
@@ -314,7 +335,7 @@ section .conteudo {
 
 /* PRENSA-PNR12-40-T */
 
-.prensa-PNR12-40-T{
+.prensa-PNR12-40-T {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -328,22 +349,22 @@ section .conteudo {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.prensa-PNR12-40-T img{
+.prensa-PNR12-40-T img {
   height: 240px;
 }
 
-.prensa-PNR12-40-T:hover{
+.prensa-PNR12-40-T:hover {
   cursor: pointer;
 }
 
-.prensa-PNR12-40-T span{
+.prensa-PNR12-40-T span {
   font-size: 14px;
   text-align: center;
   padding: 10px;
   font-weight: bold;
 }
 
-.prensa-PNR12-40-T p{
+.prensa-PNR12-40-T p {
   text-align: center;
   width: 200px;
   font-size: 11px;
@@ -351,7 +372,7 @@ section .conteudo {
 
 
 /* PRENSA PNV 10 T */
-.prensa-PNV-10-T{
+.prensa-PNV-10-T {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -366,22 +387,22 @@ section .conteudo {
 }
 
 
-.prensa-PNV-10-T img{
+.prensa-PNV-10-T img {
   height: 240px;
 }
 
-.prensa-PNV-10-T:hover{
+.prensa-PNV-10-T:hover {
   cursor: pointer;
 }
 
-.prensa-PNV-10-T span{
+.prensa-PNV-10-T span {
   font-size: 14px;
   text-align: center;
   padding: 10px;
   font-weight: bold;
 }
 
-.prensa-PNV-10-T p{
+.prensa-PNV-10-T p {
   text-align: center;
   width: 200px;
   font-size: 11px;
@@ -390,7 +411,7 @@ section .conteudo {
 
 
 /* PRENSA PNV 15 T */
-.prensa-PNV-15-T{
+.prensa-PNV-15-T {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -405,22 +426,22 @@ section .conteudo {
 }
 
 
-.prensa-PNV-15-T img{
+.prensa-PNV-15-T img {
   height: 240px;
 }
 
-.prensa-PNV-15-T:hover{
+.prensa-PNV-15-T:hover {
   cursor: pointer;
 }
 
-.prensa-PNV-15-T span{
+.prensa-PNV-15-T span {
   font-size: 14px;
   text-align: center;
   padding: 10px;
   font-weight: bold;
 }
 
-.prensa-PNV-15-T p{
+.prensa-PNV-15-T p {
   text-align: center;
   width: 200px;
   font-size: 11px;
@@ -428,7 +449,7 @@ section .conteudo {
 
 
 /* Prensa enfardadeira PNV-25 T */
-.prensa-PNV-25-T{
+.prensa-PNV-25-T {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -443,22 +464,22 @@ section .conteudo {
 }
 
 
-.prensa-PNV-25-T img{
+.prensa-PNV-25-T img {
   height: 240px;
 }
 
-.prensa-PNV-25-T:hover{
+.prensa-PNV-25-T:hover {
   cursor: pointer;
 }
 
-.prensa-PNV-25-T span{
+.prensa-PNV-25-T span {
   font-size: 14px;
   text-align: center;
   padding: 10px;
   font-weight: bold;
 }
 
-.prensa-PNV-25-T p{
+.prensa-PNV-25-T p {
   text-align: center;
   width: 200px;
   font-size: 11px;
@@ -466,7 +487,7 @@ section .conteudo {
 
 
 /* Prensa enfardadeira PNV- 40  */
-.prensa-PNV-40-T{
+.prensa-PNV-40-T {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -481,22 +502,22 @@ section .conteudo {
 }
 
 
-.prensa-PNV-40-T img{
+.prensa-PNV-40-T img {
   height: 240px;
 }
 
-.prensa-PNV-40-T:hover{
+.prensa-PNV-40-T:hover {
   cursor: pointer;
 }
 
-.prensa-PNV-40-T span{
+.prensa-PNV-40-T span {
   font-size: 14px;
   text-align: center;
   padding: 10px;
   font-weight: bold;
 }
 
-.prensa-PNV-40-T p{
+.prensa-PNV-40-T p {
   text-align: center;
   width: 200px;
   font-size: 11px;
