@@ -6,7 +6,7 @@
 }
 body {
   background: url(services-assets/walpaper.jpg);
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 }
 
@@ -68,18 +68,15 @@ body {
 
 /*MAIN---->CONTREUDO*/
 
-main {
+main { 
+  display:flex ; 
+  align-items: center;
+  justify-content: center;
   background-color: rgb(255, 255, 255);
   margin-top: 600px;
   height: 100px;
 }
-main section h1 {
-  color: black;
-  font-size: 44px;
-  font-weight: bold;
-  margin: 50px;
-  color: #ec4543;
-}
+
 /*CARDS*/
 main .box-card .circle {
   position: absolute;
@@ -91,7 +88,7 @@ main .box-card .circle {
   clip-path: circle(50% at center right);
 }
 .content-box {
-  margin-left: 200px;
+ 
   width: 600px;
 }
 .box-card {
@@ -101,7 +98,7 @@ main .box-card .circle {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .box-card h1 {
