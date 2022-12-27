@@ -1,4 +1,7 @@
 /* NAVBAR */
+#navbar {
+  background-color: white;
+}
 #navbar a {
   color: black;
 }
@@ -37,14 +40,14 @@
 /*MAIN*/
 main {
   display: flex;
-  background: url(assets/walpaper.jpg);
+
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 
   justify-content: center;
-  background-color: red;
-  height: 1600px;
+  background-color: rgb(247, 247, 247);
+  height: 1200px;
 }
 
 section {
@@ -55,17 +58,19 @@ section {
 
   height: 800px;
 }
-.content {
+.content { 
+
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 20px;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(248, 248, 248);
   border-radius: 10px 80px;
   box-shadow: 1px 3px px black;
 }
-.content h1 {
+.text h1 { 
+  border-left: 5px solid black;
   font-size: 60px;
   text-align: center;
 }
@@ -74,7 +79,131 @@ section {
   font-size: 20px;
 }
 .content img {
+  display: flex;
   margin-top: 40px;
   height: 400px;
   border-radius: 20px;
+} 
+.content img:hover{
+  opacity: 2.0;
 }
+/* FOOTER TOP */
+
+#footer {
+  padding: 3em 2em;
+  background-color: black;
+}
+
+#footer-top {
+  margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i {
+  color: #fff;
+}
+
+#social-icons {
+  text-align: right;
+}
+
+#social-icons i {
+  margin-right: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#social-icons i:hover {
+  color: #7a7a7a;
+}
+
+/* FOOTER DETAILS */
+
+#footer-details {
+  margin-bottom: 3em;
+}
+
+#news-container,
+#contact-container,
+#links-container {
+  padding: 0;
+  border: 0;
+  margin-bottom: 2em;
+}
+
+#footer-details h4 {
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+
+#news-container input {
+  border-radius: 0;
+  border: none;
+}
+
+#links-container li {
+  margin-bottom: 0.5em;
+}
+
+#links-container a {
+  text-decoration: none;
+}
+
+#links-container a:hover {
+  color: #fff;
+}
+/* INFO */
+
+#info-content {
+  margin-bottom: 4em;
+  padding: 4em 1em;
+}
+
+#info-numbers {
+  margin: 1.5em 0;
+}
+
+#info-banner {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2.5em;
+}
+
+#info-numbers h3 {
+  font-size: 3em;
+}
+
+@media (min-width: 768px) {
+  #info-content {
+    padding: 3.5em;
+  }
+}
+
+/* FOOTER BOTTOM */
+
+#footer-bottom {
+  border-top: 1px solid #7a7a7a;
+  padding-top: 2em;
+}
+
+#footer-bottom i {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #news-container {
+    padding-right: 2em;
+  }
+
+  #contact-container {
+    padding: 0 2em;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+  }
+
+  #links-container {
+    padding-left: 2em;
+  }
+}
+
+

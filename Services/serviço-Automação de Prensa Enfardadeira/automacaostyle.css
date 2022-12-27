@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 body {
-  background: url(assets/walpaper.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,13 +83,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(182, 117, 84);
   height: 700px;
-  background: url(assets/walpaper.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 main section {
   display: flex;
   align-items: center;
@@ -98,25 +96,29 @@ main section {
   width: 1600px;
 }
 #carouselExampleControls {
-  margin-top: 900px;
+  margin-top: 1000px;
+} 
+#carouselExampleControls img{
+  background-color: #050505;
+}
+#carouselExampleControls img:hover {
+  opacity: 0.5;
 }
 
 main section .content {
-  background-color: rgb(255, 255, 255);
-  border-left: 8px solid red;
   border-radius: 30px;
-  width: 1000px;
-  box-shadow: 5px 9px 15px black; 
+  width: 1300px;
+
   margin-bottom: 600px;
 }
 
 main section .content .textcontent h1 {
-  width: 1000px;
+  text-align: center;
   color: rgb(0, 0, 0);
   border-radius: 20px 40px;
   padding: 20px;
   font-size: 50px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 main section .content .textcontent p {
@@ -137,13 +139,13 @@ main section .content .btn button {
   border-radius: 20px;
   padding: 10px;
   width: 200px;
-  transition: 1.05s; 
+  transition: 1.05s;
   text-decoration: none;
 }
 main section .content .btn button:hover {
   transform: scale(1.05);
   background-color: #7a7a7a;
-  color: white; 
+  color: white;
   text-decoration: none;
 }
 main a {
@@ -153,8 +155,8 @@ main a {
 
 /* FOOTER TOP */
 #footer {
-  padding: 3em 2em; 
-  margin-top: 250px;
+  padding: 3em 2em;
+  margin-top: 350px;
 }
 
 #footer-top {
