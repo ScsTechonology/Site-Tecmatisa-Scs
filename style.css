@@ -76,6 +76,11 @@
 .btn {
   border-radius: 10px;
 }
+.btn:hover{
+   background-color:red;
+   color: black;
+   font-weight: bolder;
+}
 #slider.btn {
   padding: 0.3 0.8em;
   font-size: 2.5em;
