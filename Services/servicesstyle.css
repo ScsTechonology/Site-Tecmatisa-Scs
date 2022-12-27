@@ -1,3 +1,6 @@
+
+/*CONFIGURAÇÕES-UNIVERSAIS*/
+
 * {
   font-family: "Lato", sans-serif;
 }
@@ -66,8 +69,6 @@ body {
 /*MAIN---->CONTREUDO*/
 
 main {
-  display: flex;
-  align-items: center;
   background-color: rgb(255, 255, 255);
   margin-top: 600px;
   height: 100px;
@@ -147,7 +148,7 @@ main .box-card .circle {
   height: 30px;
   box-shadow: 1px 3px 7px black;
   display: block;
-  background-color:black;
+  background-color: black;
   color: rgb(255, 255, 255);
 }
 .card button:hover {
