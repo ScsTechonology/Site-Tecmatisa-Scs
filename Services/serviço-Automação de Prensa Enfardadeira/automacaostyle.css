@@ -102,7 +102,7 @@ main section {
 }
 
 main section .content {
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(255, 255, 255);
   border-left: 8px solid red;
   border-radius: 30px;
   width: 1000px;
@@ -112,7 +112,7 @@ main section .content {
 
 main section .content .textcontent h1 {
   width: 1000px;
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 20px 40px;
   padding: 20px;
   font-size: 50px;
@@ -121,7 +121,7 @@ main section .content .textcontent h1 {
 
 main section .content .textcontent p {
   text-align: center;
-  color: #969696;
+  color: #1a1a1a;
   margin: 30px;
   padding: 20px;
   font-size: 20px;
@@ -137,12 +137,14 @@ main section .content .btn button {
   border-radius: 20px;
   padding: 10px;
   width: 200px;
-  transition: 1.05s;
+  transition: 1.05s; 
+  text-decoration: none;
 }
 main section .content .btn button:hover {
   transform: scale(1.05);
   background-color: #7a7a7a;
-  color: white;
+  color: white; 
+  text-decoration: none;
 }
 main a {
   text-decoration: none;

@@ -147,11 +147,11 @@ main .box-card .circle {
   height: 30px;
   box-shadow: 1px 3px 7px black;
   display: block;
-  background-color: #3c3c3c;
+  background-color:black;
   color: rgb(255, 255, 255);
 }
 .card button:hover {
-  background-color: #3f3f3f;
+  background-color: #000000;
   color: rgb(255, 255, 255);
 }
 .card:hover p {
@@ -161,7 +161,7 @@ main .box-card .circle {
   color: white;
 }
 .card:hover {
-  background-color: #7a7a7a;
+  background-color: #ff0000;
   transform: scale(1.03);
 }
 main .card h2 {
@@ -175,10 +175,6 @@ main .card img {
 main .card a {
   text-decoration: none;
   color: #050505;
-  transition: 1.4s;
-}
-main .card a:hover {
-  transform: scale(1.1);
 }
 /*RESPONSIVE*/
 @media (max-width: 768px) {
@@ -197,7 +193,7 @@ main .card a:hover {
 
 #footer {
   padding: 3em 2em;
-  margin-top: 1200px;
+  margin-top: 1000px;
 }
 
 #footer-top {

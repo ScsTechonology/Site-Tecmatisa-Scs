@@ -212,33 +212,32 @@ main section .vantagens {
   border-radius: 20px;
 }
 main section .vantagens p {
-  color: #6a6a6a;
+  color: #000000;
 }
 main section .vantagens h2 {
-  background-color: #EA3432;
+  background-color: #000000;
   color: white;
   border-radius: 20px 60px;
   margin: 20px;
-  padding: 10px; 
-  border: solid black;
+  padding: 10px;
 }
 
 main section P {
-  color: #ece8e2;
+  color: #050505;
 }
 
 main section h3 {
   margin-top: 20px;
   font-weight: bold;
-  color: #686868;
+  color: black;
 }
 main section h2 {
-  color: #686868;
+  color: black;
 }
 
 main section .content h1 {
   align-items: center;
-  color: #7a7a7a;
+  color: #000000;
 }
 
 /*FOTOS DAS PRENSAS-ADEQUAÇÃO DE PRENSA(...)*/
@@ -246,17 +245,18 @@ main section .fotos h3 {
   margin: 20px;
   padding: 10px;
   background-color: #ece8e2;
-  border-radius: 20px 40px; 
+  border-radius: 20px 40px;
   border: solid black;
 }
 /* 2 PRIMEIRAS IMAGENS*/
 main section .fotos {
   margin-top: 60px;
-  width: 900px;
-  background-color: #5c5c5c;
+  width: 1300px;
+  height: 400px;
+  background-color: #ffffff;
   background-position: center center;
   border-radius: 60px;
-  box-shadow: 1px 2px 15px black; 
+  box-shadow: 1px 2px 15px black;
   border: solid black;
 }
 
@@ -276,7 +276,7 @@ main section .prensescontent {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1212125e;
+  background-color: #ffffffa2;
   width: 1200px;
   border-radius: 30px;
   margin-top: 20px;
@@ -302,12 +302,10 @@ main section .images2 img {
 }
 main section .prensescontent .images2 img:hover {
   transform: scale(1.05);
-} 
-.carouselExampleControls img{
-  height: 100px; 
+}
+.carouselExampleControls img {
+  height: 100px;
   width: 100px;
-  
-
 }
 
 /* FOOTER TOP */

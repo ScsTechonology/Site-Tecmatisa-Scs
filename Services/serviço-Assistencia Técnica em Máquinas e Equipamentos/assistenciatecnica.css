@@ -1,4 +1,7 @@
 /* NAVBAR */
+#navbar{
+  background-color: white;
+}
 #navbar a {
   color: black;
 }
@@ -60,7 +63,7 @@ section {
 .contenttext {
   padding: 20px;
   border-radius: 20px;
-  background-color: rgba(195, 195, 195, 0.195);
+  background-color: rgba(255, 255, 255, 0.782);
   border-left: 10px solid #ea3432;
   box-shadow: 2px 3px 10px black;
 }
@@ -79,7 +82,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(assets/walpaper.jpg);
+  background: url(assets/walpaper.jpg); 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 20px;
   box-shadow: 2px 3px 10px black;
 }
