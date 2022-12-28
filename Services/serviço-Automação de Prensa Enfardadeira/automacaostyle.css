@@ -97,19 +97,16 @@ main section {
 }
 #carouselExampleControls {
   margin-top: 1000px;
-} 
-#carouselExampleControls img{
-  background-color: #050505;
 }
-#carouselExampleControls img:hover {
-  opacity: 0.5;
+#carouselExampleControls img {
+  background-color: #050505;
 }
 
 main section .content {
   border-radius: 30px;
+  margin-bottom: 600px;
   width: 1300px;
 
-  margin-bottom: 600px;
 }
 
 main section .content .textcontent h1 {
