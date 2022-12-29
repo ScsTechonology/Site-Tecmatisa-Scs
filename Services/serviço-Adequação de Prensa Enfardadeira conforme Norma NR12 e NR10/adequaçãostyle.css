@@ -312,6 +312,20 @@ main section .prensescontent .images2 img:hover {
 .carouselExampleControls img {
   height: 100px;
   width: 100px;
+}  
+.card {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation:flipInY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+} 
+.prensescontent  img{
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 /* FOOTER TOP */
@@ -323,7 +337,7 @@ main section .prensescontent .images2 img:hover {
   margin-bottom: 2em;
 }
 
-#footer-top,
+#footer-top
 #footer-top i {
   color: #fff;
 }
