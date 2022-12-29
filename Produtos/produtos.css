@@ -112,7 +112,7 @@
   font-size: 1.5em;
 }
 
-/* ENFARDADEIRA VERTICAL */
+/* BOX-1*/
 .box1{
   display: flex;
   width: 700px;
@@ -124,28 +124,29 @@
 }
 
 
-.prensa-enfardadeira img{
+.image img{
   width: 170px;
   margin-left: 100px;
 }
 
-/* PRENSA JACARÉ */
+/* BOX-2 */
 .box2{
   display: flex;
   width: 700px;
   margin-left: 50px;
+  margin-top: 40px;
   height: 300px;
   border-radius: 50% 0 0 50%;
   border-left: 15px solid red;
   align-items: center;
 }
 
-.prensa-jacare img{
+.image img{
   width: 170px;
   margin-left: 100px;
 }
 
-/* PRENSA HORIZONTAL */
+/* BOX-3 */
 .box3{
   display: flex;
   width: 700px;
@@ -157,64 +158,10 @@
   align-items: center;
 }
 
-.prensa-horizontal img{
+.image img{
   width: 170px;
   margin-left: 100px;
 }
-
-/* PRENSA CONTÍNUA AUTOMÁTICA */
-
-.box4{
-  display: flex;
-  width: 700px;
-  margin-left: 50px;
-  margin-top: 40px;
-  height: 300px;
-  border-radius: 50% 0 0 50%;
-  border-left: 15px solid red;
-  align-items: center;
-}
-
-.prensa-continua-automatica img{
-  width: 170px;
-  margin-left: 100px;
-}
-
-/* TRITURADORES */
-.box5{
-  display: flex;
-  width: 700px;
-  margin-left: 50px;
-  margin-top: 40px;
-  height: 300px;
-  border-radius: 50% 0 0 50%;
-  border-left: 15px solid red;
-  align-items: center;
-}
-
-.trituradores img{
-  width: 170px;
-  margin-left: 100px;
-}
-
-/* BRIQUETADEIRA */
-
-.box6{
-  display: flex;
-  width: 700px;
-  margin-left: 50px;
-  margin-top: 40px;
-  height: 300px;
-  border-radius: 50% 0 0 50%;
-  border-left: 15px solid red;
-  align-items: center;
-}
-
-.briquetadeira img{
-  width: 170px;
-  margin-left: 100px;
-}
-
 
 
 
