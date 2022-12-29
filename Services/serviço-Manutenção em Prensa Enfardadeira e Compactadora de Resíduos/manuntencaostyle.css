@@ -1,3 +1,9 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 /* NAVBAR */
 #navbar {
   background-color: white;
@@ -42,10 +48,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(assets/walpaper.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
   height: 1200px;
 }
 
@@ -62,15 +68,25 @@ section {
   height: 1400px;
 }
 
-.content h1 {
-  padding: 20px;
-  text-align: center;
-  font-size: 50px;
+.textcontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
 }
-.content p {
-  padding: 20px;
+.textcontent h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textcontent p {
   text-align: center;
   font-size: 24px;
+}
+.textcontent ul {
+  list-style: none;
 }
 #carouselExampleControls {
   width: 1200px;

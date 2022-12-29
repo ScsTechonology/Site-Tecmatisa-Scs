@@ -91,12 +91,16 @@ main {
   background-repeat: center center;
 }
 
-main section .content {
+.content {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 300px;
 }
-
+.card {
+  margin: 20px;
+}
 main section .content h1 {
   text-align: center;
   font-weight: bold;
@@ -118,6 +122,11 @@ main section .content p {
 }
 
 /*CARDS*/
+.card-group {
+  height: 400px;
+  width: 1200px;
+  margin: 50px;
+}
 .content-box {
   width: 600px;
 }
@@ -154,17 +163,16 @@ main section .content p {
   transition: 1.2s;
 }
 
-.card h2 {
+.card h5 {
   color: #3a3a3a;
   margin-bottom: 12px;
   font-weight: 400px;
   text-align: center;
-  background-color: #3c3c3c61;
   width: 300px;
   padding: 10px;
   border-radius: 10px 40px;
-  border: solid black;
 }
+
 
 .card p {
   color: #686868;
@@ -242,11 +250,8 @@ main section .content h1 {
 
 /*FOTOS DAS PRENSAS-ADEQUAÇÃO DE PRENSA(...)*/
 main section .fotos h3 {
-  margin: 20px;
-  padding: 10px;
-  background-color: #ece8e2;
-  border-radius: 20px 40px;
-  border: solid black;
+  text-align: center;
+
 }
 /* 2 PRIMEIRAS IMAGENS*/
 main section .fotos {
@@ -303,6 +308,7 @@ main section .images2 img {
 main section .prensescontent .images2 img:hover {
   transform: scale(1.05);
 }
+
 .carouselExampleControls img {
   height: 100px;
   width: 100px;
