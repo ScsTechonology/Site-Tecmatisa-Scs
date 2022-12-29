@@ -3,8 +3,8 @@
 * {
   font-family: "Lato", sans-serif;
 }
+/*CONFIG.BODY*/
 body {
-  background: url(services-assets/walpaper.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -68,12 +68,26 @@ body {
 /*MAIN---->CONTREUDO*/
 
 main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: rgb(255, 255, 255);
-  margin-top: 600px;
-  height: 100px;
+  height: 800px;
+}
+main button {
+}
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 1600px;
+  }
+  .content-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 /*CARDS*/
@@ -174,22 +188,17 @@ main .card a {
 }
 main button {
   margin-top: 20px;
-  background-color: #686868;
+  background-color: #000000;
+  color: white;
   width: 200px;
   border-radius: 10px;
   height: 40px;
   box-shadow: 1px 2px 15px black;
 }
+/*BUTTON*/
 main button:hover {
-  background-color: #ece8e2;
+  background-color: red;
   color: black;
-} 
-.card{
-  display:  flex;
-
-
-  animation:flipInY; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
 }
 /*RESPONSIVE*/
 @media (max-width: 768px) {
