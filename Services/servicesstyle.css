@@ -183,6 +183,13 @@ main button {
 main button:hover {
   background-color: #ece8e2;
   color: black;
+} 
+.card{
+  display:  flex;
+
+
+  animation:flipInY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 /*RESPONSIVE*/
 @media (max-width: 768px) {
