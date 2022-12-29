@@ -54,11 +54,14 @@ section {
   width: 1300px;
 }
 .content {
-  background-color: rgb(157, 157, 157);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border-radius: 10px 40px;
-  height: 700px;
-  box-shadow: 1px 2px 13px 5px black;
+  height: 1400px;
 }
+
 .content h1 {
   padding: 20px;
   text-align: center;
@@ -69,10 +72,20 @@ section {
   text-align: center;
   font-size: 24px;
 }
+#carouselExampleControls {
+  width: 1200px;
+  height: 500px;
+}
+#carouselExampleControls img {
+  height: 500px;
+  border-radius: 20px;
+  width: 300px;
+}
 /* FOOTER TOP */
 
 #footer {
   padding: 3em 2em;
+  margin-top: 500px;
   background-color: black;
 }
 
