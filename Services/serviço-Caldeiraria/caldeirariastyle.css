@@ -66,6 +66,7 @@
 }
 /*MAIN~CONTEUDO*/
 main {
+  background: url(assets/v748-toon-103.jpg);
   height: 1900px;
   display: flex;
   align-items: center;
@@ -132,6 +133,10 @@ section {
 }
 .card img {
   height: 200px;
+}
+.card{
+  background-color: white; 
+  box-shadow: 2px 3px 15px black;
 }
 
 .card {

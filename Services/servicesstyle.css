@@ -154,14 +154,14 @@ main .box-card .circle {
   color: #000;
   border-radius: 20px;
   width: 200px;
-  height: 30px;
+  height: 45px;
   box-shadow: 1px 3px 7px#000;
   display: block;
   background-color: #000;
   color: #fff;
 }
 .card button:hover {
-  background-color: white;
+  background-color: red;
   color: #000;
 }
 .card:hover p {
