@@ -1,5 +1,8 @@
 * {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .bg-primary-color {
@@ -22,15 +25,14 @@
   color: #7a7a7a;
 }
 
-
 /* NAVBAR */
 #navbar a {
-  color:black;
+  color: black;
 }
 #navbar a:hover {
   color: red;
 }
-#navbar{
+#navbar {
   font-weight: bolder;
 }
 .navbar-brand {
@@ -55,11 +57,10 @@
 
 #navbar-items .nav-item {
   margin: 0 1em;
-} 
-.nav-item1{
-  border-bottom: solid ;
 }
-
+.nav-item1 {
+  border-bottom: solid;
+}
 
 /* SLIDER */
 #slider {
@@ -76,10 +77,10 @@
 .btn {
   border-radius: 10px;
 }
-.btn:hover{
-   background-color:red;
-   color: black;
-   font-weight: bolder;
+.btn:hover {
+  background-color: red;
+  color: black;
+  font-weight: bolder;
 }
 #slider.btn {
   padding: 0.3 0.8em;
@@ -99,9 +100,9 @@
   background-color: black;
 }
 @media (min-width: 768px) {
-  .img-carousel{
+  .img-carousel {
     height: 500px;
-   }
+  }
   #slider .carousel-caption {
     bottom: 15em;
   }
@@ -164,7 +165,7 @@
 
 .title:before {
   width: 75px;
-  border-top: 4px solid #7a7a7a;
+  border-top: 4px solid red;
   content: "";
   position: absolute;
   bottom: 2em;
@@ -214,6 +215,97 @@
     opacity: 0;
   }
 }
+
+/* Depoimentos */
+.slide-container {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #EBEBEB;
+  padding: 40px;
+  
+}
+.slide-content {
+  margin: 0px 40px;
+}
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #efefef;
+  padding: 3px;
+}
+.card-wrapper{
+
+}
+.card-depoimentos {
+  width: 320px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0 ;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border-radius: 25px 25px 0 25px;
+}
+.card-depoimentos{
+  margin: 10px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: white;
+}
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+.name {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #333;
+}
+.description {
+  font-size: 14px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .card-wrapper{
+    display: flex;
+  }
+  }
+
 /* FOOTER TOP */
 #footer {
   padding: 3em 2em;

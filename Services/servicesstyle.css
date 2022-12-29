@@ -137,24 +137,24 @@ main .box-card .circle {
   text-align: center;
 }
 .card button {
-  color: black;
+  color: #000;
   border-radius: 20px;
   width: 200px;
   height: 30px;
-  box-shadow: 1px 3px 7px black;
+  box-shadow: 1px 3px 7px#000;
   display: block;
-  background-color: black;
-  color: rgb(255, 255, 255);
+  background-color: #000;
+  color: #fff;
 }
 .card button:hover {
   background-color: white;
-  color: black;
+  color: #000;
 }
 .card:hover p {
   color: rgb(255, 255, 255);
 }
 .card:hover h2 {
-  color: white;
+  color: #fff;
 }
 .card:hover {
   background-color: #ec4c4b;
