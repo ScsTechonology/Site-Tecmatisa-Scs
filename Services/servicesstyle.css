@@ -66,28 +66,28 @@ body {
 }
 
 /*MAIN---->CONTREUDO*/
+/*Responsivo-Telas Maiores que 200px*/
 
-main {
-  background-color: rgb(255, 255, 255);
-  height: 800px;
-}
-main button {
-}
-@media (max-width: 768px) {
+/*RESPONSIVE*/
+@media screen and (max-width: 800px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
   main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 1600px;
+    width: 400px; 
+    background-color: #7a7a7a;
   }
   .content-box {
-    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-  }
+    flex-direction: column; 
+    
+  } 
+
 }
 
 /*CARDS*/
@@ -200,24 +200,11 @@ main button:hover {
   background-color: red;
   color: black;
 }
-/*RESPONSIVE*/
-@media (max-width: 768px) {
-  .box-card {
-    padding: 25px;
-    flex-direction: column;
-    width: 100%;
-  }
-  .card {
-    min-width: 100px;
-    margin: 10px auto;
-  }
-}
 
 /* FOOTER TOP */
 
 #footer {
   padding: 3em 2em;
-  margin-top: 1000px;
 }
 
 #footer-top {

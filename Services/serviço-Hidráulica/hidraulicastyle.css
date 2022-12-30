@@ -64,10 +64,7 @@
   border-bottom: solid;
 }
 main {
-  background: url(assets/walpaper.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
   height: 900px;
 }
 section {
@@ -78,17 +75,19 @@ section {
 }
 .content img {
 }
-.content {
+.content { 
+  
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   border-radius: 15px 40px;
-  box-shadow: 1px 4px 15px black;
   margin-top: 100px;
 }
 
 .content h1 {
+  border-bottom: 1px solid black;
+  background-color: #dddddd;
   text-align: center;
   font-size: 50px;
   padding: 20px;
@@ -116,6 +115,14 @@ button {
 button:hover {
   transform: scale(1.05);
   background-color: red;
+} 
+/*ANIMAIONS*/
+.texts {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 /* FOOTER TOP */

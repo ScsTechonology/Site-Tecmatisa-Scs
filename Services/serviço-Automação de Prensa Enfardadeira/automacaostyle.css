@@ -4,6 +4,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+/*Responsive*/
+@media screen and (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } 
+  
+
+  .textcontent { 
+    text-align: center;
+    
+    height: 100vh; 
+
+  }
+  .textcontent p{
+    font-size: 14em;
+  }
+}
 body {
   background-position: center center;
   background-repeat: no-repeat;
@@ -74,7 +94,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 700px;
+  height: 50em;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,7 +104,7 @@ main section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1600px;
+  width: 200vh;
 }
 #carouselExampleControls {
   margin-top: 1000px;
@@ -95,9 +115,8 @@ main section {
 
 main section .content {
   border-radius: 30px;
-  margin-bottom: 600px;
-  width: 1300px;
-
+  margin-bottom: 60vh;
+  width: 200vh;
 }
 
 main section .content .textcontent h1 {
@@ -127,12 +146,11 @@ main section .content .btn {
   background-color: black;
   border-radius: 20px;
   padding: 10px;
-  width: 200px;
+  width: 20vh;
   transition: 1.05s;
   text-decoration: none;
 }
 main section .content .btn button:hover {
- 
   transform: scale(1.05);
   font-weight: bolder;
   background-color: red;
@@ -142,12 +160,12 @@ main section .content .btn button:hover {
 main a {
   text-decoration: none;
   color: white;
-} 
-.textcontent{
+}
+.textcontent {
   display: inline-block;
   margin: 0 0.5rem;
 
-  animation:bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 

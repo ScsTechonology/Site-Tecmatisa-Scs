@@ -4,7 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@media screen and (max-width:600px){
+  *{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+  } 
+  .textcontent{
+    width: 30%; 
+      
+  }
+}
 .bg-primary-color {
   background-color: #fff;
 }
@@ -63,14 +73,25 @@
 .nav-item1 {
   border-bottom: solid;
 }
+.btn button{
+  border-radius: 20px;
+  width: 150px;
+  background-color:black;
+  color: white;
+  height: 40px;
+  transition: 1.03s;
+}
+.btn button:hover{
+  background-color: red;
+  color: black;
+  transform: scale(1.1);
+}
 /*MAIN*/
 main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #eeeeee;
 
   height: 1200px;
 }
@@ -94,11 +115,17 @@ section {
   justify-content: center;
   flex-direction: column;
   text-align: justify;
+  background-color: #efefef;
+  box-shadow: 1px 4px 15px black;
+  border-radius: 10px;
 }
 .textcontent h1 {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
+  background-color: #e9e9e9;
   font-weight: bold;
+
+  border-radius: 10px;
 }
 
 .textcontent p {
@@ -107,6 +134,8 @@ section {
 }
 .textcontent ul {
   list-style: none;
+  border: 1px solid;
+  text-align: center;
 }
 #carouselExampleControls {
   width: 1200px;
@@ -116,6 +145,25 @@ section {
   height: 500px;
   border-radius: 20px;
   width: 300px;
+} 
+#carouselExampleFade{ 
+  width: 1200px;
+  height: 500px;
+
+}
+#carouselExampleFade img{
+  height: 500px;
+  border-radius: 20px;
+  width: 300px;
+
+}
+/*ANIMATIONS*/
+.textcontent {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 /* FOOTER TOP */
 

@@ -64,7 +64,33 @@
   background-color: white;
   box-shadow: 1px 3px 15px black;
 }
-/*MAIN~CONTEUDO*/
+/*MAIN~CONTEUDO*/ 
+@media screen and  (max-width:700px)  { 
+  *{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+  } 
+  section{
+    display: flex;
+    align-items: center;
+     justify-content:center; 
+     flex-direction: column;
+
+
+  } 
+  .content { 
+    display: block;
+    margin: 0;  
+    
+    padding: 0; 
+    width: 100%; 
+  } 
+  p{
+    font-size: 10px;
+  }
+
+}
 main {
   background: url(assets/v748-toon-103.jpg);
   height: 1900px;
