@@ -85,18 +85,6 @@ main.container-pai {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   }
   
-  @media only screen and (max-width:600px) {
-    .container-enfardadeira{
-      width: 80vh;
-    }
-  
-    .container-pai{
-      width: 100vh;
-      justify-content: center;
-      align-items: center;
-    }
-    
-  }
   
   
   .container-enfardadeira img {

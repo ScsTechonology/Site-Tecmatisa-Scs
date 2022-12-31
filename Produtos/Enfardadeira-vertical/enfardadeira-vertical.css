@@ -72,14 +72,13 @@ body {
 
 
 /* APRESENTÇÃO PRENSA ENFARDADEIRA */
-main.container-pai {
+.container-pai {
   display: flex;
   min-width: 100vh;
   flex-direction: column;
-  margin-top: 10em;
+  padding: 10em;
   align-items: center;
 }
-
 
 
 .container-enfardadeira {
@@ -92,42 +91,9 @@ main.container-pai {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-@media (min-width: 768px) {
-
-  .container-pai {
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .container-enfardadeira {
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .container-enfardadeira img{
-    display: flex;
-    max-width: 300px;
-    flex: 20%;
-    border: solid 2px red;
-  }
-
-  section .conteudo{
-    min-width: 80vw;
-  }
-
-  .info-vendedor {
-    min-width: 80vw;
-  }
-  
-}
-
 
 .container-enfardadeira img {
-  flex: 40%;
+  flex: 30%;
   padding-top: 40px;
   width: 500px;
   height: 500px;
@@ -141,7 +107,7 @@ section .conteudo {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   margin: 15px;
   padding: 20px;
-  width: 500px;
+  width: 600px;
   border-radius: 5px;
 }
 
@@ -190,9 +156,9 @@ section .conteudo {
 /* DESCRIÇÃO DO PRODUTO */
 
 .container-descricao {
-  flex: 40%;
+  flex: 30%;
   padding: 40px;
-  width: 600px;
+  width: 500px;
   height: auto;
 
 }
@@ -211,6 +177,9 @@ section .conteudo {
   padding-top: 20;
 }
 
+@media  screen and (min-width: 768px) {
+  
+}
 
 /* INFORMAÇÃO DO VDENDEDOR */
 .info-vendedor {
@@ -218,7 +187,7 @@ section .conteudo {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   margin: 15px;
   padding: 20px;
-  width: 500px;
+  width: 600px;
   border-radius: 5px;
 }
 
@@ -235,8 +204,9 @@ section .conteudo {
   align-items: center;
   display: flex;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
   justify-content: space-between;
+  background: transparent;
 }
 
 /* CARROSEL DE PRODUTOS */
@@ -245,6 +215,7 @@ section .conteudo {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: transparent;
 
 }
 
@@ -254,6 +225,7 @@ section .conteudo {
   padding: 10px;
   gap: 5px;
   overflow-x: auto;
+  background: transparent;
 
 }
 .slide-list::-webkit-scrollbar{
@@ -331,22 +303,6 @@ section .conteudo {
   color: red;
 }
 
-
-
-@media (min-width: 768px){
-  .slide-wrapper{
-    width: 100vw;
-  }
-
-  .slide-list{
-    width: 100vw;
-  }
-
-  .slide-content{
-    min-width: 49%;
-    margin:  0 10px  0 0;
-  }
-}
 
 
 
