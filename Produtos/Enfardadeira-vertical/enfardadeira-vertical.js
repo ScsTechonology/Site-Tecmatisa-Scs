@@ -3,7 +3,7 @@ let span = document.getElementsByTagName('span');
 	let product_page = Math.ceil(product.length/4);
 	let l = 5;
 	let movePer = 25.34;
-	let maxMove = 203;
+	let maxMove = 1000;
 	// mobile_view	
 	let mob_view = window.matchMedia("(max-width: 768px)");
 	if (mob_view.matches)
