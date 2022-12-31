@@ -92,7 +92,7 @@ main.container-pai {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .container-pai {
     width: 100vw;
@@ -333,7 +333,7 @@ section .conteudo {
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
   .slide-wrapper{
     width: 100vw;
   }
