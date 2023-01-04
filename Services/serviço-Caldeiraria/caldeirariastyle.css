@@ -62,37 +62,11 @@
 }
 #navbar {
   background-color: white;
-  box-shadow: 1px 3px 15px black;
+  
 }
-/*MAIN~CONTEUDO*/ 
-@media screen and  (max-width:700px)  { 
-  *{
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box;
-  } 
-  section{
-    display: flex;
-    align-items: center;
-     justify-content:center; 
-     flex-direction: column;
+/*MAIN~CONTEUDO*/
 
-
-  } 
-  .content { 
-    display: block;
-    margin: 0;  
-    
-    padding: 0; 
-    width: 100%; 
-  } 
-  p{
-    font-size: 10px;
-  }
-
-}
 main {
-  background: url(assets/v748-toon-103.jpg);
   height: 1900px;
   display: flex;
   align-items: center;
@@ -123,7 +97,11 @@ section {
 .content h1 {
   text-align: center;
   font-size: 50px;
-  padding: 20px;
+  background-color: #050505;
+  width: 200vh;
+  border-radius: 20px;
+  color: white;
+  padding: 5px;
 }
 .content p {
   padding: 20px;
@@ -160,8 +138,8 @@ section {
 .card img {
   height: 200px;
 }
-.card{
-  background-color: white; 
+.card {
+  background-color: white;
   box-shadow: 2px 3px 15px black;
 }
 
@@ -172,12 +150,10 @@ section {
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 main {
-
   margin: 0 0.5rem;
   animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
-
 
 /*FOOTER~RODAPÉ*/
 

@@ -4,15 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media screen and (max-width:600px){
-  *{
-    margin: 0px; 
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  } 
-  .textcontent{
-    width: 30%; 
-      
+  }
+  .textcontent {
+    width: 30%;
   }
 }
 .bg-primary-color {
@@ -73,15 +72,15 @@
 .nav-item1 {
   border-bottom: solid;
 }
-.btn button{
+.btn button {
   border-radius: 20px;
   width: 150px;
-  background-color:black;
+  background-color: black;
   color: white;
   height: 40px;
   transition: 1.03s;
 }
-.btn button:hover{
+.btn button:hover {
   background-color: red;
   color: black;
   transform: scale(1.1);
@@ -91,9 +90,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eeeeee;
-
+  background-color: white;
   height: 1200px;
+
 }
 
 section {
@@ -108,6 +107,16 @@ section {
   border-radius: 10px 40px;
   height: 1400px;
 }
+.content h2 {
+  background-color: #050505;
+  width: 200vh;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+  height: 40vh;
+  padding: 10px;
+}
 
 .textcontent {
   display: flex;
@@ -115,16 +124,14 @@ section {
   justify-content: center;
   flex-direction: column;
   text-align: justify;
-  background-color: #efefef;
-  box-shadow: 1px 4px 15px black;
   border-radius: 10px;
 }
 .textcontent h1 {
   font-size: 60px;
   text-align: center;
-  background-color: #e9e9e9;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   font-weight: bold;
-
   border-radius: 10px;
 }
 
@@ -134,7 +141,6 @@ section {
 }
 .textcontent ul {
   list-style: none;
-  border: 1px solid;
   text-align: center;
 }
 #carouselExampleControls {
@@ -142,20 +148,16 @@ section {
   height: 500px;
 }
 #carouselExampleControls img {
-  height: 500px;
+  height: 60vh;
   border-radius: 20px;
-  width: 300px;
-} 
-#carouselExampleFade{ 
+}
+#carouselExampleFade {
   width: 1200px;
   height: 500px;
-
 }
-#carouselExampleFade img{
-  height: 500px;
+#carouselExampleFade img {
+  height: 60vh;
   border-radius: 20px;
-  width: 300px;
-
 }
 /*ANIMATIONS*/
 .textcontent {
