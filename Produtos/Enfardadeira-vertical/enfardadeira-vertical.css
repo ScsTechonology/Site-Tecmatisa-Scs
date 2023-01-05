@@ -94,7 +94,7 @@ body {
 
 .container-enfardadeira img {
   flex: 30%;
-  padding-top: 40px;
+  padding-top: 2rem;
   width: 500px;
   height: 500px;
 }
@@ -177,10 +177,6 @@ section .conteudo {
   padding-top: 20;
 }
 
-@media  screen and (min-width: 768px) {
-  
-}
-
 /* INFORMAÇÃO DO VDENDEDOR */
 .info-vendedor {
   display: flex;
@@ -219,20 +215,20 @@ section .conteudo {
 
 }
 
-.slide-list {
+
+.slide-content::-webkit-scrollbar{
+  display: none;
+}
+
+.slide-content{
   width: 98vw;
   display: flex;
   padding: 10px;
   gap: 5px;
   overflow-x: auto;
   background: transparent;
-
 }
-.slide-list::-webkit-scrollbar{
-  display: none;
-}
-
-.slide-content{
+.slide-item{
   background-color: #fff;
   min-width: 20%;
   padding: 10px;
@@ -244,10 +240,11 @@ section .conteudo {
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   align-items: center;
+  cursor: grab;
 }
 
 
-.slide-content img{
+.slide-item img{
   width: 170px;
 }
 
@@ -280,17 +277,17 @@ section .conteudo {
 }
 
 .slide-nav-next {
-  right: 10px;
+  right: 15px;
 }
 
-.slide-controuls{
+/* .slide-controls{
   display: flex;
   justify-content: center;
   padding:5px;
   margin: 20px auto 0;
 }
 
-.slide-controul-button{
+.slide-control-button{
   color: #000;
   background: transparent;
   font-size: 12px;
@@ -299,9 +296,9 @@ section .conteudo {
   cursor: pointer;
 }
 
-.slide-controul-button.active{
+.slide-control-button.active{
   color: red;
-}
+} */
 
 
 
