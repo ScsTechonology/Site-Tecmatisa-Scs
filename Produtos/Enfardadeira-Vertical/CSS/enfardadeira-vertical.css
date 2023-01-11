@@ -76,7 +76,7 @@ body {
   display: flex;
   min-width: 100vh;
   flex-direction: column;
-  padding: 10em;
+  padding: 10em 10em 0em;
   align-items: center;
 }
 
@@ -158,24 +158,14 @@ section .conteudo {
 .container-descricao {
   flex: 30%;
   padding: 40px;
+  margin: 5em 0 ;
   width: 500px;
   height: auto;
 
 }
 
 
-.container-descricao p {
-  padding-top: 5px;
-}
 
-.container-descricao h2 {
-  font-size: 24px;
-}
-
-
-.caracteristicas {
-  padding-top: 20;
-}
 
 /* INFORMAÇÃO DO VDENDEDOR */
 .info-vendedor {
@@ -192,114 +182,25 @@ section .conteudo {
 }
 
 
-/* PRODUTOS RELACIONADOS */
-.produtos-relacionados {
-  width: 98%;
-  height: 60px;
-  margin: 0 auto;
-  align-items: center;
+.title-product-relacionados{
+  width: 100vh;
   display: flex;
-  padding: 20px;
-  margin-top: 20px;
-  justify-content: space-between;
-  background: transparent;
+  margin: 2em 5em;
 }
 
-/* CARROSEL DE PRODUTOS */
-.slide-wrapper {
-  width: 98vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: transparent;
-
-}
-
-
-.slide-content::-webkit-scrollbar{
-  display: none;
-}
-
-.slide-content{
-  width: 98vw;
-  display: flex;
-  padding: 10px;
-  gap: 5px;
-  overflow-x: auto;
-  background: transparent;
-}
-.slide-item{
-  background-color: #fff;
-  min-width: 20%;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 20px;
-  margin: 10px 10 10px 10px;
-  cursor: pointer;
-  overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  align-items: center;
-  cursor: grab;
-}
-
-
-.slide-item img{
-  width: 170px;
-}
-
-.slide-description h3{
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.slide-description p{
-  font-size: 13px;
-  color:#302f2f;
-  text-align: center;
+.title-product-relacionados a{
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 16px;
 }
 
 
 
-.slide-nav-button{
-  color: #000;
-  border: none;
-  font-size: 36px;
-  background: transparent;
-  position: absolute;
-  z-index: 1;
-  cursor: pointer;
-}
-
-.slide-nav-previous {
-  left: 10px;
-}
-
-.slide-nav-next {
-  right: 15px;
-}
-
-/* .slide-controls{
+.row__product{
   display: flex;
   justify-content: center;
-  padding:5px;
-  margin: 20px auto 0;
+  align-items: center;
 }
-
-.slide-control-button{
-  color: #000;
-  background: transparent;
-  font-size: 12px;
-  margin: 0 5px;
-  border: none;
-  cursor: pointer;
-}
-
-.slide-control-button.active{
-  color: red;
-} */
-
 
 
 

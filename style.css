@@ -9,6 +9,11 @@
   background-color: #fff;
 }
 
+.card-content{
+  display: flex;
+  align-items: center;
+}
+
 .bg-secondary-color {
   background-color: #ece8e2;
 }
