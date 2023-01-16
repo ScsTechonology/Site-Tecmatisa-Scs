@@ -4,14 +4,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media screen and (max-width: 600px) {
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+@media (min-width: 768px) {
   .textcontent {
-    width: 30%;
+    text-align: center;
+  }
+  #carouselExampleControls {
+    height: 60vh;
+    width: 100%;
+  }
+  #carouselExampleFade {
+    width: 100%;
+    height: 60vh;
+  }
+  #carouselExampleControls img {
+
+    height: 60vh;
+  }
+  #carouselExampleFade img {
+    width: 100%;
+    height: 60vh;
   }
 }
 .bg-primary-color {
@@ -72,92 +83,38 @@
 .nav-item1 {
   border-bottom: solid;
 }
-.btn button {
-  border-radius: 20px;
-  width: 150px;
-  background-color: black;
-  color: white;
-  height: 40px;
-  transition: 1.03s;
-}
-.btn button:hover {
-  background-color: red;
-  color: black;
-  transform: scale(1.1);
-}
-/*MAIN*/
-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  height: 1200px;
-
-}
-
-section {
-  height: 800px;
-  width: 1300px;
+/*MIAN CONTEUDO*/
+mian {
+  width: 100%;
+  height: 100%;
 }
 .content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-radius: 10px 40px;
-  height: 1400px;
+  margin-top: 30vh;
 }
-.content h2 {
+.content ul {
+  list-style: none;
+}
+.content h1 {
+  padding: 10px;
+  font-size: 2.5em;
+  border-left: 2px solid black;
+}
+.content p {
+  padding: 10px;
+  font-size: 1.2em;
+}
+.content img {
+  height: 40vh;
+}
+.content button {
   background-color: #050505;
-  width: 200vh;
-  text-align: center;
   color: white;
   border-radius: 10px;
-  margin: 20px;
-  height: 40vh;
-  padding: 10px;
-}
-
-.textcontent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: justify;
-  border-radius: 10px;
-}
-.textcontent h1 {
-  font-size: 60px;
-  text-align: center;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  font-weight: bold;
-  border-radius: 10px;
-}
-
-.textcontent p {
-  text-align: center;
-  font-size: 24px;
-}
-.textcontent ul {
-  list-style: none;
-  text-align: center;
-}
-#carouselExampleControls {
-  width: 1200px;
-  height: 500px;
-}
-#carouselExampleControls img {
-  height: 60vh;
-  border-radius: 20px;
-}
-#carouselExampleFade {
-  width: 1200px;
-  height: 500px;
-}
-#carouselExampleFade img {
-  height: 60vh;
-  border-radius: 20px;
+  width: 20vh;
 }
 /*ANIMATIONS*/
 .textcontent {

@@ -4,6 +4,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*RESPONSIVO*/
+@media (min-width: 768px) {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 2px solid black;
+    padding: 2vh;
+  }
+  #carouselExampleFade {
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+}
 
 .bg-primary-color {
   background-color: #fff;
@@ -64,61 +79,41 @@
   border-bottom: solid;
 }
 /*MAIN*/
-main {
-  display: flex;
-
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  justify-content: center;
-  background-color: rgb(247, 247, 247);
-  height: 1200px;
-}
-
 section {
-  margin-top: 150px;
-  width: 1500px;
-  align-items: center;
-  justify-content: center;
-
-  height: 800px;
-}
-.content { 
-
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 20px;
-  background-color: rgb(248, 248, 248);
-  border-radius: 10px 80px;
-  box-shadow: 1px 3px px black;
+  flex-direction: column;
+  margin-top: 30vh;
 }
-.text h1 { 
-  border-left: 5px solid black;
-  font-size: 60px;
-  text-align: center;
+.text {
+  padding: 10px;
 }
-.content p {
+.text h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 2.2em;
+  border-left: 1px solid black;
+}
+.text p {
+  font-size: 1.2em;
 }
 .content img {
-  display: flex;
-  margin-top: 40px;
-  height: 400px;
+  height: 30vh;
   border-radius: 20px;
-} 
-.content img:hover{
-  opacity: 2.0;
-} 
-.content {
+  margin: 10px;
+}
 
+.content {
   margin: 0 0.5rem;
 
   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /* FOOTER TOP */
 
@@ -238,5 +233,3 @@ section {
     padding-left: 2em;
   }
 }
-
-
