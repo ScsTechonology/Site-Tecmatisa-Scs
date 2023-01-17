@@ -86,19 +86,23 @@ section {
 .content h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  background-color: black;
   border-radius: 10px;
-  color: white;
-  box-shadow: 1px 2px 4px black;
+  color: black;
+  font-weight: bold;
   font-size: 2em;
 }
+
 .content p {
   padding: 10px;
 }
 .contenttext {
   border-left: 5px solid red;
-  border-radius: 15px;
-  box-shadow: 1px 2px 3px black;
+  border-radius: 40px 10px;
+  border-bottom: 2px solid black;
+} 
+#carouselExampleFade {
+  margin-top: 5vh;
+  width: 150vh;
 }
 .content p {
   font-size: 1.2em;

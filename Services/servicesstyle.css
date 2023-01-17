@@ -85,6 +85,9 @@ body {
   transform: scale(1.2);
 }
 
+.card p {
+  font-size: 1em;
+}
 /*CARDS*/
 .card-group {
   display: flex;
@@ -110,6 +113,7 @@ body {
   margin: 10px;
   padding: 2px;
 }
+
 .card:hover {
   background-color: red;
   transform: scale(1.05);
@@ -187,7 +191,10 @@ a {
   }
   .card h5 {
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1em;
+  }
+  .card p {
+    font-size: 1em;
   }
 }
 @media (min-width: 1025px) {
@@ -225,7 +232,7 @@ a {
     grid-template: 2fr 2fr;
   }
   .card {
-    height: 90vh;
+    height: 95vh;
     width: 50vh;
   }
 }

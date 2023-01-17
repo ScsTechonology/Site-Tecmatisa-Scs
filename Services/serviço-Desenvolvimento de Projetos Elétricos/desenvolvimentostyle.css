@@ -11,7 +11,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    border: 2px solid black;
     padding: 2vh;
   }
   #carouselExampleFade {
@@ -79,7 +78,7 @@
   border-bottom: solid;
 }
 /*MAIN*/
-section {
+#section01 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,15 +91,24 @@ section {
 .text h1 {
   text-align: center;
   font-size: 2.2em;
-  border-left: 1px solid black;
+  border-bottom: 2px solid rgb(107, 107, 107);
 }
+
 .text p {
   font-size: 1.2em;
 }
 .content img {
-  height: 30vh;
+  height: 45vh;
   border-radius: 20px;
+  transition: 1.05s;
   margin: 10px;
+}
+.content img:hover {
+  transform: scale(1.03);
+}
+.contentimg {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .content {
@@ -113,7 +121,28 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid black;
+  border-radius: 10px 60px;
   flex-direction: column;
+  margin-bottom: 10vh;
+}
+.img {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-direction: column;
+  padding: 3vh;
+}
+
+.img img {
+  padding: 2vh;
+  transition: 1.5s;
+  border-radius: 30px;
+}
+.img img:hover {
+  transform: scale(1.02);
+}
+.accordion {
+  margin: 10vh;
 }
 /* FOOTER TOP */
 
