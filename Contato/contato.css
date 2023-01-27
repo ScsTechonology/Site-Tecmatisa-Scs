@@ -1,5 +1,5 @@
 * {
-  font-family: "Lato", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -62,24 +62,122 @@
   margin: 0 1em;
 }
 
-/*MAIN*/ 
-main{
-  background-color: red;  
-  display: flex; 
-  ;
-  
-} 
-#sec01{
-   
-  background-color: blue;  
-  height: 60vh;
-
-
-} 
-#sec02{
-  
+/*MAIN*/
+main {
+  display: flex;
+  height: 120vh;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(221, 221, 221, 1) 100%
+  );
+}
+#sec01 {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  background: rgb(66, 66, 66);
+  background: linear-gradient(
+    0deg,
+    rgba(66, 66, 66, 1) 0%,
+    rgba(1, 1, 1, 1) 100%
+  );
+  height: 80vh;
+  width: 35vw;
+  border-radius: 2vh;
+  margin: 10vh;
+  margin-top: 20vh;
+  box-shadow: 1px 2px 6px black;
 }
 
+.formcontent {
+  color: white;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10vh;
+  width: 60vw;
+}
+
+.formcontent h1 {
+  font-size: 2.5em;
+  border-left: 2px solid red;
+  padding: 1vh;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form input {
+  width: 25vw;
+  padding: 2vh;
+  margin: 1vh;
+  border-radius: 2vh;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.212);
+  border-bottom: 3px solid black;
+  color: white;
+}
+.form button {
+  width: 20vh;
+  border-radius: 5vh;
+  padding: 1vh;
+  border: none;
+  background-color: #000000;
+  color: white;
+  margin: 2vh;
+}
+button:hover {
+  background-color: red;
+  color: white;
+}
+#sec02 {
+  background-color: transparent;
+  width: 40vw;
+  margin: 1vh;
+  margin-top: 20vh;
+  height: 76vh;
+  border-radius: 2vh;
+}
+#sec02 h1 {
+  border-bottom: 3px solid rgb(255, 0, 0);
+  width: 30vh;
+  text-align: center;
+}
+#sec02 img {
+  height: 20vh;
+}
+.contentcontact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40vw;
+  padding: 5vh;
+  border-left: 2px solid black;
+
+  list-style: none;
+}
+.contentcontact h1 {
+  font-weight: bold; 
+  
+  text-align: center;
+  font-size: 3em;
+}
+.contentcontact p {
+  text-align: center;
+}
+
+.contentcontact ul {
+  list-style: none;
+}
 /* FOOTER TOP */
 #footer {
   padding: 3em 2em;
