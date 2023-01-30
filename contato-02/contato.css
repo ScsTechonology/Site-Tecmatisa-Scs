@@ -135,6 +135,12 @@ input::placeholder {
   color: white;
   border: none;
   margin: 2vh;
+} 
+
+
+.form button:hover{ 
+  background-color: red;
+
 }
 .circle {
   background-color: black;
