@@ -96,13 +96,13 @@ section {
   padding: 10px;
 }
 .contenttext {
-  border-left: 5px solid red;
+  
   border-radius: 40px 10px;
   border-bottom: 2px solid black;
 } 
 #carouselExampleFade {
   margin-top: 5vh;
-  width: 150vh;
+  width: 100%;
 }
 .content p {
   font-size: 1.2em;
