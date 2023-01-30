@@ -106,14 +106,12 @@ body {
   font-size: 1.7em;
 }
 
-.card { 
-  text-align: center;
+.card {
   box-shadow: 1px 4px 13px black;
   transition: 1.05s;
   width: 40vh;
   margin: 10px;
   padding: 2px;
-  height: 70vh;
 }
 
 .card:hover {
