@@ -123,7 +123,8 @@ main {
 }
 
 #carouselExampleControls {
-  margin-top: 20vh;
+  margin-top: 20vh; 
+  width: 100%;
 }
 .textcontent {
   display: inline-block;
