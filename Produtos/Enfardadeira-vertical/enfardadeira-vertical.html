@@ -100,6 +100,9 @@
 
     <!-- APRESENTAÇÃO ENFARDADEIRA -->
     <main class="container-pai">
+      <div class=" text-muted comeback">
+        <a href="../produtos.html"><i class="bi bi-arrow-left"></i> voltar a pagina anterior</a>
+      </div>
       <section class="container-enfardadeira">
         <img
           src="./img-enfardadeira/prensa enfardadeira vertical exibição.svg"
@@ -170,17 +173,17 @@
 
     <!-- CONTENT SLIDER PRODUCT -->
     <div class="title-product-relacionados">
-      <h3 class="text-muted">
-        Produtos relacionados
-        <a href="#">voltar a pagina anterior</a>
+      <h3>
+        Produtos Relacionados
+        
       </h3>
     </div>
     <section>
       <div class="mt-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <!-- SWIPPER -->
+        <div class="container__carousel">
+          <div>
+           <!-- SWIPPER -->
+            <div class="slides__product">
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
@@ -188,7 +191,9 @@
                       <img class="border-bottom" src="../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12-15 T.svg" alt="">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNR12 15T</h3>
+                        <a href="">Ver</a>
                       </div>
+                      
                     </div>
                   </div>
                   <div class="swiper-slide">
@@ -196,6 +201,7 @@
                       <img class="border-bottom" src="../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12-25 T.svg" alt="">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNR12 25T</h3>
+                        <a href="">Ver</a>
                       </div>
                     </div>
                   </div>
@@ -204,6 +210,7 @@
                       <img class="border-bottom" src="../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12- 40T.svg">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNR12 40T</h3>
+                        <a href="">Ver</a>
                       </div>
                     </div>
                   </div>
@@ -212,6 +219,7 @@
                       <img class="border-bottom" src="../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-10 T.svg">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNV 10T</h3>
+                        <a href="">Ver</a>
                       </div>
                     </div>
                   </div>
@@ -220,6 +228,7 @@
                       <img class="border-bottom" src="../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-15 T.svg">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNV 15T</h3>
+                        <a href="">Ver</a>
                       </div>
                     </div>
                   </div>
@@ -228,6 +237,7 @@
                       <img class="border-bottom" src="../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-25 T.svg">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNV 25T</h3>
+                        <a href="">Ver</a>
                       </div>
                     </div>
                   </div>
@@ -236,16 +246,20 @@
                       <img class="border-bottom" src="../Assets-produtos/PRENSA-PNV/Prens-enfardadeira-Slider PNV- 40 T.svg">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNV 40T</h3>
+                        <a href="">Ver</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
               </div>
             </div>
           </div>
         </div>
+        
       </div>
+      <a href=""></a>
       
     </section>
    
@@ -346,7 +360,11 @@
           el: ".swiper-pagination",
           clickable: true,
         },
-      });
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
