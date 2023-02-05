@@ -26,7 +26,7 @@
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/120644712?v=4" width=115><br><sub>Thiago</sub>](https://github.com/duartethg) |  [<img src="https://avatars.githubusercontent.com/u/113998134?v=4" width=115><br><sub>David</sub>](https://github.com/TheBrue1) |  [<img src="https://avatars.githubusercontent.com/u/120504755?v=4" width=115><br><sub>Marcelo</sub>](https://github.com/dantezzK) | [<img src="https://avatars.githubusercontent.com/u/56659663?v=4" width=115><br><sub>Jefferson</sub>](https://avatars.githubusercontent.com/u/56659663?v=4) | [<img src="https://avatars.githubusercontent.com/u/121060277?v=4" width=115><br><sub>SCS D. Business</sub>](https://github.com/ScsTechonology)
+| [<img src="https://avatars.githubusercontent.com/u/120644712?v=4" width=115><br><sub>Thiago</sub>](https://github.com/duartethg) |  [<img src="https://avatars.githubusercontent.com/u/113998134?v=4" width=115><br><sub>David</sub>](https://github.com/TheBrue1) |  [<img src="https://avatars.githubusercontent.com/u/120504755?v=4" width=115><br><sub>Marcelo</sub>](https://github.com/dantezzK) | [<img src="https://avatars.githubusercontent.com/u/56659663?v=4" width=115><br><sub>Jefferson</sub>](https://github.com/jefferson-sudo) | [<img src="https://avatars.githubusercontent.com/u/121060277?v=4" width=115><br><sub>SCS D. Business</sub>](https://github.com/ScsTechonology)
 | :---: | :---: | :---: |:---: |:---:|
 
 
