@@ -15,8 +15,7 @@
 ## [Tecnologias utilizadas](#tecnologias-utilizadas)
 
 * Javascript</br>
-> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-	">
+> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 * HTML5</br>
 > <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
 
@@ -27,8 +26,8 @@
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/56659663?s=400&u=cc5cb0eee9f41048be95cc941e0e1029eb92ec33&v=4" width=115><br><sub>Jefferson Mateus</sub>](https://github.com/Jefferson-sudo) |  [<img src=""><br><sub>MARCELO AQUI</sub>](link perfil git hub) |  [<img src="" width=115><br><sub>DAVID AQUI</sub>](link perfil git hub) | [<img src="" width=115><br><sub>THIADO AQUI</sub>](link perfil git hub)
-| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/120644712?v=4" width=115><br><sub>Thiago</sub>](https://github.com/duartethg) |  [<img src="https://avatars.githubusercontent.com/u/113998134?v=4" width=115><br><sub>David</sub>](https://github.com/TheBrue1) |  [<img src="https://avatars.githubusercontent.com/u/120504755?v=4" width=115><br><sub>Marcelo</sub>](https://github.com/dantezzK) | [<img src="https://avatars.githubusercontent.com/u/56659663?v=4" width=115><br><sub>Jefferson</sub>](https://avatars.githubusercontent.com/u/56659663?v=4) | [<img src="https://avatars.githubusercontent.com/u/121060277?v=4" width=115><br><sub>SCS D. Business</sub>](https://github.com/ScsTechonology)
+| :---: | :---: | :---: |:---: |:---:|
 
 
 
@@ -37,9 +36,9 @@
 
 ## [Links](#links)
 
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
+Desenvolvido por [SCS Digital Business ](https://scsdigitalbusiness.com.br/)[.]()
 
-## Blockquotes
+Blockquotes
 
 > Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
 >
