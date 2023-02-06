@@ -75,6 +75,8 @@
 #slider .corousel-caption {
   bottom: 3em;
 }
+
+
 #slider .carousel-caption h5 {
   font-size: 2.5em;
   text-shadow: #000 2px 2px;
@@ -125,6 +127,8 @@
     bottom: 7em;
   }
 }
+
+
 /* MINI BANNERS */
 #mini-banners {
   margin-bottom: 4em;
