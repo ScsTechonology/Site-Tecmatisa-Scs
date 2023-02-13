@@ -134,40 +134,44 @@
         </div>
 
         <!-- DESCRIÇÃO DO PRODUTO -->
-        <div class="container-descricao">
-          <h2>Descrição</h2>
-          <p class="fs-14px text-muted">
+        <div class="container__descricao__info">
+          <div class="description">
+            <h2>Descrição</h2>
+            <p class="fs-14px text-muted">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
             commodi vel praesentium eos nam nisi a assumenda nostrum hic
             necessitatibus omnis quam minus, consequuntur aut, voluptatum soluta
             laboriosam fugiat! Possimus.
-          </p>
-          <p class="fs-14px text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet
+            </p>
+            <p class="fs-14px text-muted">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet
             perspiciatis, nihil laboriosam, rerum quasi aut atque maxime
             temporibus accusamus corrupti error et molestias veritatis nobis.
             Fugiat blanditiis officiis facilis.
-          </p>
+           </p>
 
-          <h2 class="fs-8px">Caracteriscas Principais</h2>
-          <p class="text-muted">
+           <h2 class="fs-8px">Caracteriscas Principais</h2>
+           <p class="text-muted">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quae
             ex ipsa officia atque sint quod suscipit iste asperiores aliquid,
             dolore libero! Temporibus aliquid at quia voluptas sapiente
             accusantium a?
-          </p>
-          <p class="fs-14px text-muted">
+           </p>
+           <p class="fs-14px text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
             blanditiis. Fuga earum voluptatibus et modi enim dolor, explicabo
             iusto doloremque rerum eligendi! Velit eveniet omnis molestiae non
             et dicta temporibus.
-          </p>
+           </p>
+           </div>
+          
+          <div class="info-vendedor">
+            <h2>Informações sobre o vendedor</h2>
+          </div>
         </div>
 
         <!-- INFORMAÇÃO DO VENDEDOR -->
-        <div class="info-vendedor">
-          <h2>Informações sobre o vendedor</h2>
-        </div>
+        
       </section>
     </main>
 
@@ -179,7 +183,7 @@
       </h3>
     </div>
     <section>
-      <div class="mt-5">
+      <div>
         <div class="container__carousel">
           <div>
            <!-- SWIPPER -->
@@ -251,8 +255,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
               </div>
             </div>
           </div>
@@ -348,6 +352,9 @@
       </div>
     </footer>
 
+
+    
+
     <!-- JS SWIPPER -->
     <script src="./JS/swiper-bundle.min.js"></script>
     <script>
@@ -356,14 +363,23 @@
         spaceBetween: 25,
         slidesPerGroup: 5,
         loop: false,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
         navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+
+      breakpoints:{
+          0:{
+            slidesPerView: 1,
+          },
+          520:{
+            slidesPerView: 2,
+          },
+          1440:{
+            slidesPerView: 5,
+          },
+
+      }
     });
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
