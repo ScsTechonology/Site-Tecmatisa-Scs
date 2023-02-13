@@ -277,7 +277,6 @@ section .conteudo {
   .comeback{
     width: 90vw;
     margin: 0;
-    border: #000 solid 2px;
   }
 
   .container-pai {
