@@ -165,6 +165,81 @@
 
 
 
+
+
+@media (max-width: 768px) {
+
+  .title-produtos{
+    width: 100vw;
+    padding: 1rem;
+  }
+  .container-produtos{
+    width: 100vw;
+    
+    
+  }
+
+  .box1{
+    border-left: 10px solid red;
+    border-radius: 50% 0 0 50%;
+    width: 100vw;
+    height: 35vh;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .title-produtos{
+    width: 100vw;
+  }
+
+  .image{
+    width: 35vw;
+  }
+
+
+  .image img{
+    width: 150px;
+    height: 150px;
+    margin-left: 1rem;
+    margin-right: 0;
+  }
+
+  .conteudo-prensa{
+    /* border: solid rebeccapurple 2px; */
+    width: 50vw;
+  }
+
+  .conteudo-prensa h2{
+    font-size: 11px;
+  }
+
+  .divisoria{
+    width: 50vw;
+  }
+
+  .descricao ul{
+    border: solid 2px red;
+    width: 20vw;
+    margin: 0;
+  }
+
+  .descricao li{
+    font-size: 11px;
+    /* border: solid firebrick 2px; */
+    width: 40vw;
+  }
+
+  .btn-produtos{
+    background-color: rgb(34, 33, 33);
+    font-size: 11px;
+  }
+
+  #jacare img{
+    width: 150px;
+    margin: 0;   
+  }
+}
+
 /* FOOTER TOP */
 #footer {
   padding: 3em 2em;
