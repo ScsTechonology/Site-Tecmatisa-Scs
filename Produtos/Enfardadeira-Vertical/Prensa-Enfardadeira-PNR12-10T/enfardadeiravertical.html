@@ -30,7 +30,7 @@
     <!-- CSS do Projeto-->
     <link
       rel="stylesheet"
-      href="./CSS/prensa-enfardadeira-pnv-40t.css"
+      href="./CSS/enfardadeira-vertical.css"
     />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
     <!-- JavaScript Boostrap -->
@@ -47,7 +47,7 @@
       <div class="container py-3">
         <a href="#" class="navbar-brand logo-link">
           <img
-            src="../Assets-produtos/PAGINA PRINCIPAL/novo-logo-tecmatisa.png"
+            src="../../Assets-produtos/PAGINA PRINCIPAL/novo-logo-tecmatisa.png"
             alt="novo-logo-tecmatisa"
           />
         </a>
@@ -99,17 +99,27 @@
     </nav>
 
     <!-- APRESENTAÇÃO ENFARDADEIRA -->
-    <main class="container-pai">
+    <main class="container__pai">
+
+      <!-- BOTÃO PARA VOLTAR PARA PAGINA ANTERIOR -->
       <div class=" text-muted comeback">
-        <a href="../produtos.html"><i class="bi bi-arrow-left"></i> voltar a pagina anterior</a>
+        <a href="../../produtos.html"><i class="bi bi-arrow-left"></i> voltar a pagina anterior</a>
       </div>
-      <section class="container-enfardadeira">
-        <img
-          src="../Assets-produtos/PRENSA-EXIBIÇÃO/prensa-enfardaddeira-pnv-15T-exibição.svg"
+
+      <!-- CONTEINER PRINCIPAL DE EXIBIÇÃO E INFORMAÇÃO DOS PRODUTOS -->
+      <section class="container__enfardadeira">
+
+        <!-- IMAGEM DA PRENSA -->
+        <div class="image__exibicao">
+          <img
+          src="../../Assets-produtos/PRENSA-EXIBIÇÃO/enfardaddeira-pnr12-10T-exibição.svg"
           alt="Prensa Enfardadeira Vertical"
         />
+        </div>
+
+        <!-- INFORMAÇÕES SOBRE A PRENSA -->
         <div class="conteudo">
-          <h1>Prensa Enfardadeira PNV 40T</h1>
+          <h1>Prensa Enfardadeira PNR12-10T</h1>
           <span>Mais Vendido</span>
           <p>Para prensagem de Papel , Papelão, Pet, Plástico dentre outros</p>
           <ul class="list-descrition">
@@ -130,56 +140,67 @@
               Engenheiro Responsável.
             </li>
           </ul>
+
+          <!-- BOTÃO DE FAÇA O SEU ORÇAMENTO -->
           <a href="#">Faça seu orçamento</a>
         </div>
 
         <!-- DESCRIÇÃO DO PRODUTO -->
-        <div class="container-descricao">
-          <h2>Descrição</h2>
-          <p class="fs-14px text-muted">
+        <div class="container__descricao__info">
+
+          <div class="description">
+
+            <!-- TITULO DESCRIÇÃO -->
+            <h2>Descrição</h2>
+
+            <!-- DESCRIÇÃO DO PRODUTO -->
+            <p class="text-muted">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
             commodi vel praesentium eos nam nisi a assumenda nostrum hic
             necessitatibus omnis quam minus, consequuntur aut, voluptatum soluta
             laboriosam fugiat! Possimus.
-          </p>
-          <p class="fs-14px text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet
+            </p>
+            <p class="text-muted">
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet
             perspiciatis, nihil laboriosam, rerum quasi aut atque maxime
             temporibus accusamus corrupti error et molestias veritatis nobis.
             Fugiat blanditiis officiis facilis.
-          </p>
+           </p>
 
-          <h2 class="fs-8px">Caracteriscas Principais</h2>
-          <p class="text-muted">
+           <!-- TIRULO CARACTERISTICAS -->
+           <h2>Caracteriscas Principais</h2>
+
+           <!-- CARACTERISTICAS DOS PRODUTOS -->
+           <p class="text-muted">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quae
             ex ipsa officia atque sint quod suscipit iste asperiores aliquid,
             dolore libero! Temporibus aliquid at quia voluptas sapiente
             accusantium a?
-          </p>
-          <p class="fs-14px text-muted">
+           </p>
+           <p class="text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
             blanditiis. Fuga earum voluptatibus et modi enim dolor, explicabo
             iusto doloremque rerum eligendi! Velit eveniet omnis molestiae non
             et dicta temporibus.
-          </p>
-        </div>
-
-        <!-- INFORMAÇÃO DO VENDEDOR -->
-        <div class="info-vendedor">
-          <h2>Informações sobre o vendedor</h2>
+           </p>
+           </div>
+          
+          <div class="info-vendedor">
+            <h2>Informações sobre o vendedor</h2>
+          </div>
         </div>
       </section>
     </main>
 
     <!-- CONTENT SLIDER PRODUCT -->
-    <div class="title-product-relacionados">
+    <div class="title__product__relacionados">
       <h3>
         Produtos Relacionados
-        
       </h3>
     </div>
-    <section>
-      <div class="mt-5">
+
+    <section class="carousel__product">
+      <div>
         <div class="container__carousel">
           <div>
            <!-- SWIPPER -->
@@ -188,90 +209,83 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="card">
-
-                      <!--PRENSA ENFARDADEIRA PNV 10T -->
-                      <img class="border-bottom" src="../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-10 T.svg" alt="">
-                      <div class="card-body">
-                        <h3>Prensa Enfardadeira PNV 10</h3>
-                        <a href="../Enfardadeira-Vertical/enfardadeira-vertical.html">Ver</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- PRENSA ENFARDADEIRA PNV 15T -->
-                  <div class="swiper-slide">
-                    <div class="card">
-                      <img class="border-bottom" src="../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-15 T.svg" alt="">
-                      <div class="card-body">
-                        <h3>Prensa Enfardadeira PNV 15T</h3>
-                        <a href="">Ver</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- PRENSA ENFARDADEIRA PNV 25T -->
-                  <div class="swiper-slide">
-                    <div class="card">
-                      <img class="border-bottom" src="../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-25 T.svg">
-                      <div class="card-body">
-                        <h3>Prensa Enfardadeira PNV 25T</h3>
-                        <a href="">Ver</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- PRENSA ENFARDADEIRA PNR12 10T -->
-                  <div class="swiper-slide">
-                    <div class="card">
-                      <img class="border-bottom" src="../Assets-produtos/PRENSA-PNR12/prensa-enfardadeira-slider-PNR12-10T.svg">
-                      <div class="card-body">
-                        <h3>Prensa Enfardadeira PNR12 10T</h3>
-                        <a href="">Ver</a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- PRENSA ENFARDADEIRA PNR12 15T -->
-                  <div class="swiper-slide">
-                    <div class="card">
-                      <img class="border-bottom" src="../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12-25 T.svg">
+                      <img class="border-bottom" src="../../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12-15 T.svg" alt="">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNR12 15T</h3>
-                        <a href="">Ver</a>
+                        <a href="../Prensa Enfardadeira PNR12 – 15 T/prensa-enfardadeira-pnr-12T.html">Ver</a>
                       </div>
+                      
                     </div>
                   </div>
-
-                  <!-- PRENSA ENFARDADEIRA PNR12 25T -->
                   <div class="swiper-slide">
                     <div class="card">
-                      <img class="border-bottom" src="../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12-25 T.svg">
+                      <img class="border-bottom" src="../../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12-25 T.svg" alt="">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNR12 25T</h3>
                         <a href="">Ver</a>
                       </div>
                     </div>
                   </div>
-
-                  <!-- PRENSA ENFARDADEIRA PNR12 40T -->
                   <div class="swiper-slide">
                     <div class="card">
-                      <img class="border-bottom" src="../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12- 40T.svg">
+                      <img class="border-bottom" src="../../Assets-produtos/PRENSA-PNR12/Prensa-Enfardadeira-Slider PNR12- 40T.svg">
                       <div class="card-body">
                         <h3>Prensa Enfardadeira PNR12 40T</h3>
                         <a href="">Ver</a>
                       </div>
                     </div>
                   </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="border-bottom" src="../../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-10 T.svg">
+                      <div class="card-body">
+                        <h3>Prensa Enfardadeira PNV 10T</h3>
+                        <a href="">Ver</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="border-bottom" src="../../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-15 T.svg">
+                      <div class="card-body">
+                        <h3>Prensa Enfardadeira PNV 15T</h3>
+                        <a href="">Ver</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="border-bottom" src="../../Assets-produtos/PRENSA-PNV/Prensa-enfardadeira-Slider PNV-25 T.svg">
+                      <div class="card-body">
+                        <h3>Prensa Enfardadeira PNV 25T</h3>
+                        <a href="">Ver</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <img class="border-bottom" src="../../Assets-produtos/PRENSA-PNV/Prens-enfardadeira-Slider PNV- 40 T.svg">
+                      <div class="card-body">
+                        <h3>Prensa Enfardadeira PNV 40T</h3>
+                        <a href="">Ver</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
               </div>
             </div>
           </div>
         </div>
+        
       </div>
+      <a href=""></a>
+      
     </section>
+    
+   
+
 
     <!-- FOOTER -->
     <footer class="container-fluid bg-dark-color" id="footer">
@@ -356,6 +370,9 @@
       </div>
     </footer>
 
+
+    
+
     <!-- JS SWIPPER -->
     <script src="./JS/swiper-bundle.min.js"></script>
     <script>
@@ -364,14 +381,25 @@
         spaceBetween: 25,
         slidesPerGroup: 5,
         loop: false,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
         navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+
+      breakpoints:{
+          0:{
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          520:{
+            slidesPerView: 2,
+            slidesPerGroup: 2,
+          },
+          1440:{
+            slidesPerView: 5,
+            slidesPerGroup: 5,
+          },
+      }
     });
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
