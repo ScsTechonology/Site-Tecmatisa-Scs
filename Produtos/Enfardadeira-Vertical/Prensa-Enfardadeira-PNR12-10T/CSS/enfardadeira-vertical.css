@@ -99,6 +99,7 @@ body{
 /* IMAGEM DA PRENSA */
 .image__exibicao{
   flex: 50%;
+  font-size: 11px;
 }
 
 .image__exibicao img {
@@ -283,10 +284,6 @@ body{
 /* MODO RESPONSIVO CELULAR */
 
 @media (max-width: 768px) {
-
-  .navbar{
-    width: 100%;
-  }
 
   /* CONTAINER PRINCIPAL DE EXIBIÇÃO E INFO DAS PRENSAS */
 
