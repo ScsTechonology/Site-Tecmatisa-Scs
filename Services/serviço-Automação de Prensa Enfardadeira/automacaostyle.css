@@ -86,21 +86,22 @@ section {
 }
 
 .textcontent {
-    
   padding: 4vh;
   width: 100%;
 }
+  
 
 .fts img {
   height: 40vh;
   width: 40vh;
-  border-radius: 2vh;
+  border-radius: 2vh; 
 }
 
 .textcontent h1 {
   text-align: center;
   font-size: 2em;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid black; 
+  
 }
 
 .textcontent p {
