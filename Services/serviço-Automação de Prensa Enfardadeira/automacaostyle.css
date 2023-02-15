@@ -34,6 +34,7 @@
 }
 
 #navbar {
+  width: 100%;
   font-weight: bolder;
 }
 
@@ -67,41 +68,39 @@
 
 /*MAIN*/
 main {
-  height: 100%;
   width: 100%;
-} 
-#acordioon button{
-  background-color: white;
-}
-#acordioon button:hover{ 
-  background-color: white; 
 }
 
+#acordioon button:hover {
+  background-color: white;
+}
+section {
+  width: 100%;
+}
 
 .content {
   height: 100%;
   width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   border-radius: 20px;
   justify-content: center;
 }
-#carouselExampleControls {
-  width: 140vh;
-  margin: 10px;
-}
 
 .textcontent {
+    
   padding: 4vh;
   width: 100%;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+}
+
+.fts img {
+  height: 40vh;
+  width: 40vh;
+  border-radius: 2vh;
 }
 
 .textcontent h1 {
   text-align: center;
   font-size: 2em;
+  border-bottom: 2px solid black;
 }
 
 .textcontent p {
@@ -119,17 +118,30 @@ main {
 }
 
 .content button:hover {
-  background-color: red;
+  background-color: black;
+  color: white;
+}
+.tex {
+  width: 100%;
+  margin-left: 3vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column;
+} 
+
+.tex button {
+  background-color: white;
+  color: black;
 }
 
 #carouselExampleControls {
-  margin-top: 20vh; 
+  margin-top: 20vh;
   width: 100%;
+  height: 40vh;
 }
-.textcontent {
-  display: inline-block;
-  animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+#carouselExampleControls img {
+  height: 40vh;
 }
 
 /* FOOTER TOP */
@@ -245,5 +257,74 @@ main {
 
   #links-container {
     padding-left: 2em;
+  }
+}
+/*RESPONSIVO*/  
+@media (min-width:768px) {
+  .tex { 
+    
+    width: 60vh; 
+    margin-left: 10vh;
+  }
+}
+@media (min-width: 1280px) {
+  section {
+    width: 100%;
+  }
+
+  .content {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .textcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh;
+    width: 100%;
+    
+  }
+
+  .fts img {
+    height: 70vh;
+    width: 70vh;
+    border-radius: 2vh;
+  }
+
+  .textcontent h1 {
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+  }
+
+  .textcontent p {
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .content button {
+    border-radius: 10px;
+    width: 20vh;
+    background-color: #050505;
+    margin-top: 60px;
+    padding: 1vh;
+    color: white;
+  }
+
+  .content button:hover {
+    background-color: black;
+    color: white;
+  }
+  .tex {
+    
+    width: 80vh;
+    margin-left: 3vh;
+  }
+  .tex button {
+    margin-left: 60vh;
+    background-color: white;
+    color: black;
   }
 }

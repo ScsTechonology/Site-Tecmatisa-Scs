@@ -103,7 +103,7 @@ body {
 }
 .card h5 {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .card {
@@ -251,6 +251,16 @@ a {
     font-size: 1.03em;
   }
 }
+@media (min-width: 1400px) {
+  .card {
+    height: 69vh;
+  }
+  .card-body h5 {
+    font-size: 1.7em;
+    margin-top: 3vh;
+  }
+}
+
 /*RESPONSIVO~FECHAMENTO*/
 
 /* FOOTER TOP */
