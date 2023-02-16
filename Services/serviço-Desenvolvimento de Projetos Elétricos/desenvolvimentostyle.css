@@ -18,6 +18,20 @@
     margin-bottom: 10vh;
   }
 }
+@media (min-width: 1280px) {
+  .content {
+    display: flex;
+  }
+
+  .text {
+    width: 70vh;
+    height: 50vh;
+    margin-left: 2vh;
+  }
+  .content img {
+    width: 70vh;
+  }
+}
 
 .bg-primary-color {
   background-color: #fff;
@@ -79,10 +93,6 @@
 }
 /*MAIN*/
 #section01 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   margin-top: 30vh;
 }
 .text {
@@ -97,18 +107,9 @@
 .text p {
   font-size: 1.2em;
 }
-.content img {
-  height: 45vh;
-  border-radius: 20px;
-  transition: 1.05s;
-  margin: 10px;
-}
+
 .content img:hover {
   transform: scale(1.03);
-}
-.contentimg {
-  display: grid;
-  grid-template-columns: auto auto auto;
 }
 
 .content {
@@ -117,20 +118,16 @@
   animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
 }
+
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid black;
+  margin-top: 5vh;
   border-radius: 10px 60px;
-  flex-direction: column;
+  width: 100%;
   margin-bottom: 10vh;
 }
-.img {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  flex-direction: column;
-  padding: 3vh;
+
+.content img {
+  height: 30vh;
 }
 
 .img img {
@@ -141,6 +138,7 @@
 .img img:hover {
   transform: scale(1.02);
 }
+
 .accordion {
   margin: 10vh;
 }
