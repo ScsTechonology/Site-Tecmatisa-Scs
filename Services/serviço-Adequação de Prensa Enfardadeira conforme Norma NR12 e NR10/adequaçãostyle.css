@@ -29,10 +29,10 @@
 @media (min-width: 1024px) {
   .vantagens {
     width: 100vh;
-  } 
-   .vantagens h2{
+  }
+  .vantagens h2 {
     border-left: 4px solid red;
-   }
+  }
   .prensescontent h4 {
     border-radius: 20px;
     border-left: 3px solid red;
@@ -103,7 +103,9 @@
 }
 
 /*MAIN-CONTEUDO*/
-
+section{
+  height: 100%;
+}
 .content {
   margin-top: 50vh;
   height: 100%;
@@ -117,19 +119,21 @@
   font-size: 2em;
 }
 .content h1 {
-  background-color: #050505;
-  color: white;
+  color: black;
   text-align: center;
   border-radius: 10px;
 }
 
 #carouselExampleControls {
-  height: 50vh;
-  width: 100%;
+  height: 80vh;
+  width: 100%; 
+  margin-top: 10vh;  
+  margin-bottom: 20vh;
 }
 #carouselExampleControls img {
-  border-radius: 20px;
-  height: 50vh;
+  border-radius: 20px; 
+  height: 80vh; 
+ 
 }
 .prensescontent {
   display: flex;
@@ -146,20 +150,21 @@
 }
 .fotos h3 {
   font-size: 2em;
-  background-color: #050505;
-  color: white;
+
+  color: black;
   text-align: center;
   border-radius: 10px;
   margin: 20px;
 }
 .prensescontent h4 {
-  color: white;
+  color: black;
   width: 100%;
-  background-color: #050505;
-  font-size: 1em;
+  font-size: 2em;
   text-align: center;
-  padding: 10px;
+  padding: 10px ; 
+  border-bottom: 2px solid black;
 }
+
 .vantagens h2 {
   background-color: #050505;
   color: white;
@@ -170,7 +175,8 @@
 
 /* FOOTER TOP */
 #footer {
-  padding: 3em 2em;
+  padding: 3em 2em; 
+  margin-top: 120vh;
 }
 
 #footer-top {
