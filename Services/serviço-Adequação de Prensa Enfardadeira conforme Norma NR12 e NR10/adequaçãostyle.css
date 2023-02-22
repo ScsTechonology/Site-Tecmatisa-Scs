@@ -14,10 +14,14 @@
     width: 100%;
     height: 100%;
   }
+  .card {
+    height: 50vh;
+  }
   .images {
     display: grid;
     grid-template-columns: auto auto auto;
   }
+
   .images2 {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -30,12 +34,41 @@
   .vantagens {
     width: 100vh;
   }
-  .vantagens h2 {
-    border-left: 4px solid red;
+  .fotos #carouselExampleControls {
+    height: 45vh;
+    width: 150vh;
+    margin: 2vh;
+  }
+  .fotos #carouselExampleControls img {
+    height: 45vh;
+    width: 150vh;
+    margin: 2vh;
+  }
+  .prensescontent #carouselExampleControls {
+    height: 45vh;
+    width: 150vh;
+    margin: 2vh;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prensescontent #carouselExampleControls img {
+    height: 45vh;
+    width: 150vh;
+    margin: 2vh;
+  }
+  .images2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .vantagens {
+    margin-top: 20vh;
   }
   .prensescontent h4 {
-    border-radius: 20px;
-    border-left: 3px solid red;
+    border-bottom: solid 1px black;
+    width: 10vh;
   }
 }
 /*BODY*/
@@ -103,7 +136,7 @@
 }
 
 /*MAIN-CONTEUDO*/
-section{
+section {
   height: 100%;
 }
 .content {
@@ -113,6 +146,7 @@ section{
 .card {
   box-shadow: 1px 2px 15px;
   margin: 20px;
+  height: 50vh;
 }
 .card h5 {
   text-align: center;
@@ -123,24 +157,27 @@ section{
   text-align: center;
   border-radius: 10px;
 }
+.fotos h3 {
+  font-size: 3em;
+} 
 
 #carouselExampleControls {
-  height: 80vh;
-  width: 100%; 
-  margin-top: 10vh;  
+  height: 50vh;
+  width: 100%;
+  margin-top: 10vh;
   margin-bottom: 20vh;
 }
 #carouselExampleControls img {
-  border-radius: 20px; 
-  height: 80vh; 
- 
+  border-radius: 20px;
+  height: 50vh;
 }
 .prensescontent {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 100%; 
+  
 }
 .prensescontent img {
   display: grid;
@@ -161,8 +198,8 @@ section{
   width: 100%;
   font-size: 2em;
   text-align: center;
-  padding: 10px ; 
-  border-bottom: 2px solid black;
+  padding: 10px; 
+  margin-top: 10vh;
 }
 
 .vantagens h2 {
@@ -171,11 +208,14 @@ section{
   text-align: center;
   padding: 10px;
   border-radius: 10px;
+} 
+.vantagens {
+  margin-top: 5vh;
 }
 
 /* FOOTER TOP */
 #footer {
-  padding: 3em 2em; 
+  padding: 3em 2em;
   margin-top: 120vh;
 }
 

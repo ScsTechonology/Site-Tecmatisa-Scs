@@ -31,11 +31,25 @@
     margin: 2vh;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .cards {
     display: flex;
     justify-content: center;
-  } 
+  }
+  .content02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 120vh;
+  }
+
   #carouselExampleSlidesOnly img {
     height: 60vh;
   }
@@ -47,7 +61,11 @@
     margin: 10vh;
   }
   #carouselExampleControls img {
-    height: 60vh;
+    height: 80vh;
+  }
+  .cards img {
+    height: 30vh;
+    border-radius: 2vh;
   }
 }
 
@@ -125,14 +143,11 @@
 .content h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 2em;
-  background-color: black;
-  color: white;
+  font-size: 3em;
   padding: 5px;
   width: 50vh;
-  border-radius: 200px;
   margin-top: 20vh;
-  border-left: 10px solid red;
+  border-bottom: solid 2px black;
 }
 .content h3 {
   text-align: center;
@@ -145,6 +160,7 @@
 }
 .card {
   margin-bottom: 4vh;
+  margin-top: 10vh;
 }
 .content {
   animation: fadeInLeftBig; /* referring directly to the animation's @keyframe declaration */
@@ -155,7 +171,15 @@
 #carouselExampleSlidesOnly {
   width: 100%;
 }
-
+#carouselExampleSlidesOnly img {
+  width: 100%;
+}
+#carouselExampleControls {
+  width: 100%;
+}
+#carouselExampleControls img {
+  height: 30vh;
+}
 /*FOOTER~RODAPÉ*/
 
 #footer {

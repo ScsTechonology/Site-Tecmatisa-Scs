@@ -170,6 +170,14 @@ a {
     transition: 1.05s;
   }
 }
+@media (min-width: 768px) {
+  .card-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 @media (min-width: 1024px) {
   main {
     width: 100%;
